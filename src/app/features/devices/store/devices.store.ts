@@ -25,6 +25,7 @@ interface DevicesState {
   loading: boolean;
   detailLoading: boolean;
   auditLogsLoading: boolean;
+  updating: boolean;
   error: string | null;
   searchQuery: string;
   statusFilter: DeviceStatus | null;
@@ -46,6 +47,7 @@ const initialState: DevicesState = {
   loading: false,
   detailLoading: false,
   auditLogsLoading: false,
+  updating: false,
   error: null,
   searchQuery: '',
   statusFilter: null,
@@ -157,7 +159,7 @@ export const DevicesStore = signalStore(
     updateDevice: rxMethod<{ id: string; data: UpdateDeviceDto; operationId: string }>(
       pipe(
         tap(({ operationId }) => patchState(store, {
-          loading: true,
+          updating: true,
           updateResult: { status: 'idle', operationId },
           error: null
         })),
@@ -173,7 +175,7 @@ export const DevicesStore = signalStore(
                   selectedDevice: store.selectedDevice()?.id === id
                     ? updatedDevice
                     : store.selectedDevice(),
-                  loading: false,
+                  updating: false,
                   updateResult: { status: 'success', operationId },
                   error: null
                 });
@@ -181,7 +183,7 @@ export const DevicesStore = signalStore(
               error: (error: Error) => {
                 patchState(store, {
                   error: error.message || 'Failed to update device',
-                  loading: false,
+                  updating: false,
                   updateResult: { status: 'error', operationId }
                 });
               }

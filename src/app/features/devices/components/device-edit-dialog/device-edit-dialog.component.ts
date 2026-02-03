@@ -8,7 +8,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { Device, DeviceStatus, UpdateDeviceDto } from '../../../../models';
 import { DevicesStore } from '../../store/devices.store';
 import { NotificationService } from '../../../../core/services';
-import { generateOperationId } from '../../../../core/utils';
+import { generateOperationId, handleOperationResult } from '../../../../core/utils';
 
 export interface DeviceEditDialogData {
   device: Device;
@@ -100,6 +100,9 @@ export class DeviceEditDialogComponent implements OnDestroy {
   saving = false;
   private currentOperationId: string | null = null;
 
+  // Strict IPv4 pattern: each octet must be 0-255
+  private static readonly IPV4_PATTERN = /^(?:(?:25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)\.){3}(?:25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)$/;
+
   constructor() {
     const device = this.data.device;
     this.form = this.fb.group({
@@ -107,25 +110,31 @@ export class DeviceEditDialogComponent implements OnDestroy {
       status: [device.status],
       firmwareVersion: [device.firmwareVersion],
       location: [device.location],
-      ipAddress: [device.ipAddress, Validators.pattern(/^(\d{1,3}\.){3}\d{1,3}$/)]
+      ipAddress: [device.ipAddress, Validators.pattern(DeviceEditDialogComponent.IPV4_PATTERN)]
     });
 
     // React to operation result changes - only if this dialog initiated the operation
     effect(() => {
-      const result = this.store.updateResult();
-      if (result.operationId === this.currentOperationId && this.currentOperationId !== null) {
-        if (result.status === 'success') {
-          this.saving = false;
-          this.currentOperationId = null;
-          this.dialogRef.disableClose = false;
-          this.notificationService.showSuccess('Device updated successfully');
-          this.dialogRef.close(true);
-        } else if (result.status === 'error') {
-          this.saving = false;
-          this.currentOperationId = null;
-          this.dialogRef.disableClose = false;
+      const handled = handleOperationResult(
+        this.store.updateResult(),
+        this.currentOperationId,
+        {
+          onSuccess: () => {
+            this.saving = false;
+            this.currentOperationId = null;
+            this.dialogRef.disableClose = false;
+            this.notificationService.showSuccess('Device updated successfully');
+            this.dialogRef.close(true);
+          },
+          onError: () => {
+            this.saving = false;
+            this.currentOperationId = null;
+            this.dialogRef.disableClose = false;
+          }
         }
-      }
+      );
+      // handled variable available if needed for additional logic
+      void handled;
     });
   }
 

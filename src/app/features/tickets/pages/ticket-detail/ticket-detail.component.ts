@@ -26,7 +26,7 @@ import {
   TICKET_PRIORITY_LABELS,
   TICKET_TYPE_LABELS
 } from '../../../../models';
-import { generateOperationId } from '../../../../core/utils';
+import { generateOperationId, handleOperationResult } from '../../../../core/utils';
 
 @Component({
   selector: 'app-ticket-detail',
@@ -323,17 +323,23 @@ export class TicketDetailComponent implements OnInit, OnDestroy {
   constructor() {
     // React to transition result changes
     effect(() => {
-      const result = this.store.transitionResult();
-      if (result.operationId === this.currentOperationId && this.currentOperationId !== null) {
-        if (result.status === 'success' && this.pendingStatus) {
-          this.notificationService.showSuccess(`Ticket status changed to ${this.getStatusLabel(this.pendingStatus)}`);
-          this.pendingStatus = null;
-          this.currentOperationId = null;
-        } else if (result.status === 'error') {
-          this.pendingStatus = null;
-          this.currentOperationId = null;
+      handleOperationResult(
+        this.store.transitionResult(),
+        this.currentOperationId,
+        {
+          onSuccess: () => {
+            if (this.pendingStatus) {
+              this.notificationService.showSuccess(`Ticket status changed to ${this.getStatusLabel(this.pendingStatus)}`);
+            }
+            this.pendingStatus = null;
+            this.currentOperationId = null;
+          },
+          onError: () => {
+            this.pendingStatus = null;
+            this.currentOperationId = null;
+          }
         }
-      }
+      );
     });
   }
 

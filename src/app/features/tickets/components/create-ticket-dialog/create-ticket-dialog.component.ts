@@ -17,7 +17,7 @@ import {
   TICKET_PRIORITY_LABELS,
   TICKET_TYPE_LABELS
 } from '../../../../models';
-import { generateOperationId } from '../../../../core/utils';
+import { generateOperationId, handleOperationResult } from '../../../../core/utils';
 
 @Component({
   selector: 'app-create-ticket-dialog',
@@ -252,20 +252,24 @@ export class CreateTicketDialogComponent implements OnInit, OnDestroy {
   constructor() {
     // React to operation result changes - only if this dialog initiated the operation
     effect(() => {
-      const result = this.store.createResult();
-      if (result.operationId === this.currentOperationId && this.currentOperationId !== null) {
-        if (result.status === 'success') {
-          this.creating = false;
-          this.currentOperationId = null;
-          this.dialogRef.disableClose = false;
-          this.notificationService.showSuccess('Ticket created successfully');
-          this.dialogRef.close(true);
-        } else if (result.status === 'error') {
-          this.creating = false;
-          this.currentOperationId = null;
-          this.dialogRef.disableClose = false;
+      handleOperationResult(
+        this.store.createResult(),
+        this.currentOperationId,
+        {
+          onSuccess: () => {
+            this.creating = false;
+            this.currentOperationId = null;
+            this.dialogRef.disableClose = false;
+            this.notificationService.showSuccess('Ticket created successfully');
+            this.dialogRef.close(true);
+          },
+          onError: () => {
+            this.creating = false;
+            this.currentOperationId = null;
+            this.dialogRef.disableClose = false;
+          }
         }
-      }
+      );
     });
   }
 

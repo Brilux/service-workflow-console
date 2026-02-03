@@ -78,7 +78,8 @@ export class ApiClientService {
   ): PaginatedResponse<T> {
     const data = response.body ?? [];
     const totalItems = parseInt(response.headers.get('X-Total-Count') ?? '0', 10);
-    const totalPages = Math.ceil(totalItems / pagination.limit);
+    // Ensure at least 1 page for consistent 1-indexed pagination model
+    const totalPages = Math.max(1, Math.ceil(totalItems / pagination.limit));
 
     const meta: PaginationMeta = {
       currentPage: pagination.page,

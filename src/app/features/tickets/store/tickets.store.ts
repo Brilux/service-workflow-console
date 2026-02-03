@@ -37,6 +37,7 @@ interface TicketsState {
   detailLoading: boolean;
   auditLogsLoading: boolean;
   creating: boolean;
+  transitioning: boolean;
   error: string | null;
   searchQuery: string;
   statusFilter: TicketStatus | null;
@@ -62,6 +63,7 @@ const initialState: TicketsState = {
   detailLoading: false,
   auditLogsLoading: false,
   creating: false,
+  transitioning: false,
   error: null,
   searchQuery: '',
   statusFilter: null,
@@ -266,7 +268,7 @@ export const TicketsStore = signalStore(
     transitionStatus: rxMethod<{ id: string; newStatus: TicketStatus; operationId: string }>(
       pipe(
         tap(({ operationId }) => patchState(store, {
-          loading: true,
+          transitioning: true,
           transitionResult: { status: 'idle', operationId },
           error: null
         })),
@@ -282,7 +284,7 @@ export const TicketsStore = signalStore(
                   selectedTicket: store.selectedTicket()?.id === id
                     ? updatedTicket
                     : store.selectedTicket(),
-                  loading: false,
+                  transitioning: false,
                   transitionResult: { status: 'success', operationId },
                   error: null
                 });
@@ -290,7 +292,7 @@ export const TicketsStore = signalStore(
               error: (error: Error) => {
                 patchState(store, {
                   error: error.message || 'Failed to update ticket status',
-                  loading: false,
+                  transitioning: false,
                   transitionResult: { status: 'error', operationId }
                 });
               }
