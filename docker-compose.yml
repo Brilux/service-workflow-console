@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - api
+    networks:
+      - app-network
+
+  api:
+    image: vimagick/json-server
+    volumes:
+      - ./mock-api/db.json:/data/db.json
+    ports:
+      - "3001:3000"
+    command: json-server --watch db.json --host 0.0.0.0
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

@@ -1,0 +1,75 @@
+/* Global styles for Service Workflow Console */
+@use '@angular/material' as mat;
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+/* Snackbar custom styles */
+.snackbar-success {
+  --mdc-snackbar-container-color: #4caf50;
+  --mdc-snackbar-supporting-text-color: white;
+}
+
+.snackbar-error {
+  --mdc-snackbar-container-color: #f44336;
+  --mdc-snackbar-supporting-text-color: white;
+}
+
+.snackbar-info {
+  --mdc-snackbar-container-color: #2196f3;
+  --mdc-snackbar-supporting-text-color: white;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a1a1a1;
+}
+
+/* Table improvements */
+.mat-mdc-table {
+  .mat-mdc-header-cell {
+    font-weight: 600;
+    color: #424242;
+  }
+}
+
+/* Card spacing */
+mat-card {
+  margin-bottom: 16px;
+}
+
+/* Link styles */
+a {
+  color: #3f51b5;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+/* Focus visible outlines */
+*:focus-visible {
+  outline: 2px solid #3f51b5;
+  outline-offset: 2px;
+}

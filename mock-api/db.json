@@ -1,0 +1,3480 @@
+{
+  "devices": [
+    {
+      "id": "device-001",
+      "name": "EdgeNode-500-0001",
+      "serialNumber": "SN-438601",
+      "model": "GatewayPro-X1",
+      "status": "offline",
+      "firmwareVersion": "2.1.0",
+      "lastSeen": "2026-01-10T06:00:31.697Z",
+      "location": "Building C - Server Room",
+      "ipAddress": "192.168.136.66",
+      "createdAt": "2025-11-05T02:00:58.073Z",
+      "updatedAt": "2025-11-14T17:14:54.843Z"
+    },
+    {
+      "id": "device-002",
+      "name": "GatewayPro-X1-0002",
+      "serialNumber": "SN-322667",
+      "model": "GatewayPro-X1",
+      "status": "maintenance",
+      "firmwareVersion": "1.1.0",
+      "lastSeen": "2026-01-24T22:54:50.160Z",
+      "location": "Building A - Floor 2",
+      "ipAddress": "192.168.206.136",
+      "createdAt": "2026-01-17T10:45:33.833Z",
+      "updatedAt": "2026-01-31T11:18:49.475Z"
+    },
+    {
+      "id": "device-003",
+      "name": "GatewayPro-X1-0003",
+      "serialNumber": "SN-876272",
+      "model": "DataCollector-200",
+      "status": "online",
+      "firmwareVersion": "1.2.0",
+      "lastSeen": "2026-02-03T00:46:22.048Z",
+      "location": "Building C - Floor 1",
+      "ipAddress": "192.168.60.4",
+      "createdAt": "2026-01-10T09:16:01.790Z",
+      "updatedAt": "2026-01-10T22:20:48.039Z"
+    },
+    {
+      "id": "device-004",
+      "name": "IoTBridge-100-0004",
+      "serialNumber": "SN-792316",
+      "model": "IoTBridge-100",
+      "status": "maintenance",
+      "firmwareVersion": "1.1.0",
+      "lastSeen": "2026-02-02T22:18:13.365Z",
+      "location": "Building B - Roof",
+      "ipAddress": "192.168.69.90",
+      "createdAt": "2026-02-02T11:17:12.508Z",
+      "updatedAt": "2026-02-02T20:16:20.710Z"
+    },
+    {
+      "id": "device-005",
+      "name": "GatewayPro-X1-0005",
+      "serialNumber": "SN-508436",
+      "model": "EdgeNode-500",
+      "status": "online",
+      "firmwareVersion": "1.0.1",
+      "lastSeen": "2026-02-03T00:46:22.048Z",
+      "location": "Building A - Floor 1",
+      "ipAddress": "192.168.252.139",
+      "createdAt": "2025-12-07T19:04:16.411Z",
+      "updatedAt": "2025-12-12T21:33:20.112Z"
+    },
+    {
+      "id": "device-006",
+      "name": "GatewayPro-X1-0006",
+      "serialNumber": "SN-589331",
+      "model": "MonitorStation-M2",
+      "status": "offline",
+      "firmwareVersion": "1.0.1",
+      "lastSeen": "2026-02-02T20:59:19.382Z",
+      "location": "Production Line 1",
+      "ipAddress": "192.168.102.112",
+      "createdAt": "2026-02-02T10:50:21.646Z",
+      "updatedAt": "2026-02-02T21:38:46.787Z"
+    },
+    {
+      "id": "device-007",
+      "name": "SensorHub-3000-0007",
+      "serialNumber": "SN-126728",
+      "model": "GatewayPro-X1",
+      "status": "maintenance",
+      "firmwareVersion": "2.0.0",
+      "lastSeen": "2026-01-19T17:03:32.961Z",
+      "location": "Building B - Roof",
+      "ipAddress": "192.168.64.129",
+      "createdAt": "2025-11-21T01:56:08.947Z",
+      "updatedAt": "2025-12-29T15:11:03.710Z"
+    },
+    {
+      "id": "device-008",
+      "name": "ControlUnit-C5-0008",
+      "serialNumber": "SN-338811",
+      "model": "SmartMeter-A1",
+      "status": "maintenance",
+      "firmwareVersion": "2.1.0",
+      "lastSeen": "2025-12-12T11:55:48.156Z",
+      "location": "Building C - Floor 1",
+      "ipAddress": "192.168.113.235",
+      "createdAt": "2025-11-14T08:55:30.453Z",
+      "updatedAt": "2025-12-22T01:48:12.906Z"
+    },
+    {
+      "id": "device-009",
+      "name": "ControlUnit-C5-0009",
+      "serialNumber": "SN-768376",
+      "model": "IoTBridge-100",
+      "status": "online",
+      "firmwareVersion": "2.0.1",
+      "lastSeen": "2026-02-03T00:30:22.048Z",
+      "location": "Building C - Server Room",
+      "ipAddress": "192.168.79.88",
+      "createdAt": "2026-02-01T00:07:29.663Z",
+      "updatedAt": "2026-02-01T15:26:10.573Z"
+    },
+    {
+      "id": "device-010",
+      "name": "SensorHub-3000-0010",
+      "serialNumber": "SN-540787",
+      "model": "DataCollector-200",
+      "status": "offline",
+      "firmwareVersion": "1.0.0",
+      "lastSeen": "2026-01-16T17:56:22.904Z",
+      "location": "Production Line 1",
+      "ipAddress": "192.168.100.114",
+      "createdAt": "2025-12-15T05:54:20.335Z",
+      "updatedAt": "2026-01-30T20:59:51.845Z"
+    },
+    {
+      "id": "device-011",
+      "name": "DataCollector-200-0011",
+      "serialNumber": "SN-319303",
+      "model": "EdgeNode-500",
+      "status": "offline",
+      "firmwareVersion": "2.0.0",
+      "lastSeen": "2025-12-09T08:24:14.944Z",
+      "location": "Outdoor - South Gate",
+      "ipAddress": "192.168.5.122",
+      "createdAt": "2025-11-16T07:38:03.361Z",
+      "updatedAt": "2026-01-20T00:10:39.325Z"
+    },
+    {
+      "id": "device-012",
+      "name": "GatewayPro-X1-0012",
+      "serialNumber": "SN-831180",
+      "model": "DataCollector-200",
+      "status": "online",
+      "firmwareVersion": "1.0.0",
+      "lastSeen": "2026-02-03T00:54:22.048Z",
+      "location": "Warehouse - Section A",
+      "ipAddress": "192.168.86.65",
+      "createdAt": "2025-12-22T23:56:34.403Z",
+      "updatedAt": "2026-01-08T06:01:34.538Z"
+    },
+    {
+      "id": "device-013",
+      "name": "EdgeNode-500-0013",
+      "serialNumber": "SN-990211",
+      "model": "GatewayPro-X1",
+      "status": "offline",
+      "firmwareVersion": "2.0.0",
+      "lastSeen": "2025-12-15T22:16:19.747Z",
+      "location": "Building C - Server Room",
+      "ipAddress": "192.168.201.33",
+      "createdAt": "2025-12-03T07:42:09.821Z",
+      "updatedAt": "2025-12-25T10:19:15.385Z"
+    },
+    {
+      "id": "device-014",
+      "name": "MonitorStation-M2-0014",
+      "serialNumber": "SN-753170",
+      "model": "IoTBridge-100",
+      "status": "online",
+      "firmwareVersion": "1.2.1",
+      "lastSeen": "2026-02-03T01:08:22.048Z",
+      "location": "Building C - Server Room",
+      "ipAddress": "192.168.94.75",
+      "createdAt": "2025-11-25T01:36:57.031Z",
+      "updatedAt": "2025-12-22T08:21:47.159Z"
+    },
+    {
+      "id": "device-015",
+      "name": "EdgeNode-500-0015",
+      "serialNumber": "SN-197766",
+      "model": "SmartMeter-A1",
+      "status": "offline",
+      "firmwareVersion": "1.2.0",
+      "lastSeen": "2025-12-28T22:55:55.247Z",
+      "location": "Building A - Floor 1",
+      "ipAddress": "192.168.90.137",
+      "createdAt": "2025-12-11T19:38:11.542Z",
+      "updatedAt": "2025-12-22T00:38:21.894Z"
+    },
+    {
+      "id": "device-016",
+      "name": "ControlUnit-C5-0016",
+      "serialNumber": "SN-309832",
+      "model": "IoTBridge-100",
+      "status": "maintenance",
+      "firmwareVersion": "1.0.1",
+      "lastSeen": "2026-02-02T15:28:01.686Z",
+      "location": "Outdoor - North Perimeter",
+      "ipAddress": "192.168.208.251",
+      "createdAt": "2026-01-22T09:07:33.427Z",
+      "updatedAt": "2026-01-26T09:34:29.831Z"
+    },
+    {
+      "id": "device-017",
+      "name": "SensorHub-3000-0017",
+      "serialNumber": "SN-712012",
+      "model": "MonitorStation-M2",
+      "status": "maintenance",
+      "firmwareVersion": "2.1.0",
+      "lastSeen": "2026-01-30T10:58:08.582Z",
+      "location": "Building A - Floor 2",
+      "ipAddress": "192.168.95.11",
+      "createdAt": "2025-12-31T14:40:12.526Z",
+      "updatedAt": "2026-01-18T18:24:16.974Z"
+    },
+    {
+      "id": "device-018",
+      "name": "ControlUnit-C5-0018",
+      "serialNumber": "SN-325132",
+      "model": "GatewayPro-X1",
+      "status": "offline",
+      "firmwareVersion": "1.1.0",
+      "lastSeen": "2025-12-02T08:59:16.105Z",
+      "location": "Production Line 2",
+      "ipAddress": "192.168.106.244",
+      "createdAt": "2025-11-20T18:41:58.396Z",
+      "updatedAt": "2026-01-02T11:44:36.986Z"
+    },
+    {
+      "id": "device-019",
+      "name": "DataCollector-200-0019",
+      "serialNumber": "SN-514099",
+      "model": "SensorHub-3000",
+      "status": "offline",
+      "firmwareVersion": "2.0.1",
+      "lastSeen": "2026-01-30T22:57:06.851Z",
+      "location": "Building A - Basement",
+      "ipAddress": "192.168.146.154",
+      "createdAt": "2025-12-15T17:21:10.093Z",
+      "updatedAt": "2026-01-01T16:53:56.790Z"
+    },
+    {
+      "id": "device-020",
+      "name": "DataCollector-200-0020",
+      "serialNumber": "SN-684462",
+      "model": "IoTBridge-100",
+      "status": "online",
+      "firmwareVersion": "1.0.0",
+      "lastSeen": "2026-02-03T00:29:22.048Z",
+      "location": "Warehouse - Section B",
+      "ipAddress": "192.168.172.39",
+      "createdAt": "2025-12-10T01:58:12.421Z",
+      "updatedAt": "2026-01-23T03:55:13.951Z"
+    },
+    {
+      "id": "device-021",
+      "name": "SmartMeter-A1-0021",
+      "serialNumber": "SN-967363",
+      "model": "IoTBridge-100",
+      "status": "online",
+      "firmwareVersion": "1.0.0",
+      "lastSeen": "2026-02-03T00:50:22.048Z",
+      "location": "Warehouse - Section B",
+      "ipAddress": "192.168.98.127",
+      "createdAt": "2025-11-24T06:02:56.685Z",
+      "updatedAt": "2025-12-20T05:47:56.150Z"
+    },
+    {
+      "id": "device-022",
+      "name": "MonitorStation-M2-0022",
+      "serialNumber": "SN-597902",
+      "model": "SensorHub-3000",
+      "status": "maintenance",
+      "firmwareVersion": "2.0.0",
+      "lastSeen": "2026-01-25T11:35:03.703Z",
+      "location": "Building B - Floor 1",
+      "ipAddress": "192.168.158.6",
+      "createdAt": "2025-12-09T07:48:02.658Z",
+      "updatedAt": "2026-01-04T10:23:12.279Z"
+    },
+    {
+      "id": "device-023",
+      "name": "MonitorStation-M2-0023",
+      "serialNumber": "SN-966609",
+      "model": "DataCollector-200",
+      "status": "maintenance",
+      "firmwareVersion": "1.2.0",
+      "lastSeen": "2026-01-12T08:13:28.384Z",
+      "location": "Outdoor - North Perimeter",
+      "ipAddress": "192.168.7.10",
+      "createdAt": "2026-01-01T07:47:21.596Z",
+      "updatedAt": "2026-01-17T01:27:13.569Z"
+    },
+    {
+      "id": "device-024",
+      "name": "SmartMeter-A1-0024",
+      "serialNumber": "SN-625242",
+      "model": "IoTBridge-100",
+      "status": "offline",
+      "firmwareVersion": "1.0.1",
+      "lastSeen": "2026-01-15T12:33:33.736Z",
+      "location": "Production Line 2",
+      "ipAddress": "192.168.206.247",
+      "createdAt": "2025-12-24T09:08:11.113Z",
+      "updatedAt": "2026-01-10T23:47:52.770Z"
+    },
+    {
+      "id": "device-025",
+      "name": "MonitorStation-M2-0025",
+      "serialNumber": "SN-464098",
+      "model": "EdgeNode-500",
+      "status": "offline",
+      "firmwareVersion": "2.1.0",
+      "lastSeen": "2026-02-01T13:26:41.145Z",
+      "location": "Production Line 2",
+      "ipAddress": "192.168.96.78",
+      "createdAt": "2025-11-12T23:49:35.140Z",
+      "updatedAt": "2025-11-18T19:51:02.814Z"
+    },
+    {
+      "id": "device-026",
+      "name": "SmartMeter-A1-0026",
+      "serialNumber": "SN-865492",
+      "model": "GatewayPro-X1",
+      "status": "offline",
+      "firmwareVersion": "1.2.0",
+      "lastSeen": "2026-02-02T13:28:30.217Z",
+      "location": "Building A - Floor 1",
+      "ipAddress": "192.168.76.64",
+      "createdAt": "2026-01-27T16:57:52.831Z",
+      "updatedAt": "2026-01-30T10:14:32.518Z"
+    },
+    {
+      "id": "device-027",
+      "name": "DataCollector-200-0027",
+      "serialNumber": "SN-811808",
+      "model": "IoTBridge-100",
+      "status": "maintenance",
+      "firmwareVersion": "1.2.0",
+      "lastSeen": "2026-01-15T17:18:00.760Z",
+      "location": "Production Line 3",
+      "ipAddress": "192.168.207.69",
+      "createdAt": "2026-01-09T20:29:53.172Z",
+      "updatedAt": "2026-01-15T01:30:55.258Z"
+    },
+    {
+      "id": "device-028",
+      "name": "GatewayPro-X1-0028",
+      "serialNumber": "SN-661147",
+      "model": "SensorHub-3000",
+      "status": "online",
+      "firmwareVersion": "1.2.1",
+      "lastSeen": "2026-02-03T00:55:22.048Z",
+      "location": "Building B - Roof",
+      "ipAddress": "192.168.32.136",
+      "createdAt": "2026-01-03T06:52:20.079Z",
+      "updatedAt": "2026-01-15T05:52:48.211Z"
+    },
+    {
+      "id": "device-029",
+      "name": "SensorHub-3000-0029",
+      "serialNumber": "SN-337848",
+      "model": "SmartMeter-A1",
+      "status": "maintenance",
+      "firmwareVersion": "2.0.1",
+      "lastSeen": "2025-12-11T22:57:22.243Z",
+      "location": "Building C - Server Room",
+      "ipAddress": "192.168.3.201",
+      "createdAt": "2025-12-10T10:17:11.549Z",
+      "updatedAt": "2025-12-31T09:16:07.935Z"
+    },
+    {
+      "id": "device-030",
+      "name": "SensorHub-3000-0030",
+      "serialNumber": "SN-345077",
+      "model": "SmartMeter-A1",
+      "status": "online",
+      "firmwareVersion": "1.0.1",
+      "lastSeen": "2026-02-03T00:55:22.048Z",
+      "location": "Building A - Floor 1",
+      "ipAddress": "192.168.179.193",
+      "createdAt": "2025-11-16T16:58:52.417Z",
+      "updatedAt": "2025-11-24T04:45:14.246Z"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "ticket-0001",
+      "title": "Device relocation",
+      "description": "Device needs to be physically moved to a new location.",
+      "status": "waiting_parts",
+      "priority": "high",
+      "type": "rma",
+      "deviceId": "device-027",
+      "deviceName": "DataCollector-200-0027",
+      "assigneeId": "user-1",
+      "assigneeName": "System Admin",
+      "createdBy": "Mary Johnson",
+      "createdAt": "2026-01-04T11:00:38.873Z",
+      "updatedAt": "2026-01-24T03:10:10.360Z"
+    },
+    {
+      "id": "ticket-0002",
+      "title": "Performance degradation",
+      "description": "Device performance has degraded significantly compared to baseline.",
+      "status": "in_progress",
+      "priority": "high",
+      "type": "rma",
+      "deviceId": "device-007",
+      "deviceName": "SensorHub-3000-0007",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "John Smith",
+      "createdAt": "2026-01-09T04:10:40.504Z",
+      "updatedAt": "2026-01-21T18:02:25.541Z"
+    },
+    {
+      "id": "ticket-0003",
+      "title": "Diagnostic check",
+      "description": "Comprehensive diagnostic check requested by the operations team.",
+      "status": "waiting_parts",
+      "priority": "medium",
+      "type": "maintenance",
+      "deviceId": "device-011",
+      "deviceName": "DataCollector-200-0011",
+      "assigneeId": "user-2",
+      "assigneeName": "John Smith",
+      "createdBy": "John Smith",
+      "createdAt": "2026-01-20T16:05:11.632Z",
+      "updatedAt": "2026-01-30T17:35:17.275Z"
+    },
+    {
+      "id": "ticket-0004",
+      "title": "Hardware malfunction",
+      "description": "Hardware component appears to be malfunctioning and may need replacement.",
+      "status": "done",
+      "priority": "critical",
+      "type": "inspection",
+      "deviceId": "device-029",
+      "deviceName": "SensorHub-3000-0029",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "System Admin",
+      "createdAt": "2026-01-11T17:30:59.490Z",
+      "updatedAt": "2026-01-28T07:57:04.579Z"
+    },
+    {
+      "id": "ticket-0005",
+      "title": "Sensor calibration needed",
+      "description": "Sensor readings are showing drift from expected baseline values.",
+      "status": "in_progress",
+      "priority": "critical",
+      "type": "inspection",
+      "deviceId": "device-011",
+      "deviceName": "DataCollector-200-0011",
+      "assigneeId": "user-3",
+      "assigneeName": "Mary Johnson",
+      "createdBy": "Mary Johnson",
+      "createdAt": "2025-12-13T23:51:26.760Z",
+      "updatedAt": "2025-12-31T07:03:27.663Z"
+    },
+    {
+      "id": "ticket-0006",
+      "title": "Network connectivity issues",
+      "description": "Device is experiencing intermittent connectivity drops to the central server.",
+      "status": "waiting_parts",
+      "priority": "low",
+      "type": "maintenance",
+      "deviceId": "device-014",
+      "deviceName": "MonitorStation-M2-0014",
+      "assigneeId": "user-2",
+      "assigneeName": "John Smith",
+      "createdBy": "Operations Viewer",
+      "createdAt": "2026-01-12T17:13:26.173Z",
+      "updatedAt": "2026-01-20T07:47:09.333Z"
+    },
+    {
+      "id": "ticket-0007",
+      "title": "Scheduled maintenance",
+      "description": "Regular scheduled maintenance as per the service agreement.",
+      "status": "done",
+      "priority": "high",
+      "type": "repair",
+      "deviceId": "device-026",
+      "deviceName": "SmartMeter-A1-0026",
+      "assigneeId": "user-1",
+      "assigneeName": "System Admin",
+      "createdBy": "Operations Viewer",
+      "createdAt": "2026-01-27T04:39:45.975Z",
+      "updatedAt": "2026-02-02T00:26:14.615Z"
+    },
+    {
+      "id": "ticket-0008",
+      "title": "Battery replacement",
+      "description": "Battery level is critically low and requires immediate replacement.",
+      "status": "new",
+      "priority": "high",
+      "type": "repair",
+      "deviceId": "device-012",
+      "deviceName": "GatewayPro-X1-0012",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "Mary Johnson",
+      "createdAt": "2025-12-17T04:38:29.167Z",
+      "updatedAt": "2026-01-23T03:33:55.389Z"
+    },
+    {
+      "id": "ticket-0009",
+      "title": "Device not responding",
+      "description": "Device has stopped sending telemetry data and requires investigation.",
+      "status": "waiting_parts",
+      "priority": "critical",
+      "type": "inspection",
+      "deviceId": "device-009",
+      "deviceName": "ControlUnit-C5-0009",
+      "assigneeId": "user-2",
+      "assigneeName": "John Smith",
+      "createdBy": "John Smith",
+      "createdAt": "2026-01-23T00:43:58.697Z",
+      "updatedAt": "2026-01-26T13:50:54.927Z"
+    },
+    {
+      "id": "ticket-0010",
+      "title": "Hardware malfunction",
+      "description": "Hardware component appears to be malfunctioning and may need replacement.",
+      "status": "waiting_parts",
+      "priority": "low",
+      "type": "maintenance",
+      "deviceId": "device-029",
+      "deviceName": "SensorHub-3000-0029",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "Operations Viewer",
+      "createdAt": "2025-12-28T22:32:11.608Z",
+      "updatedAt": "2026-01-25T02:50:04.486Z"
+    },
+    {
+      "id": "ticket-0011",
+      "title": "Network connectivity issues",
+      "description": "Device is experiencing intermittent connectivity drops to the central server.",
+      "status": "new",
+      "priority": "medium",
+      "type": "inspection",
+      "deviceId": "device-010",
+      "deviceName": "SensorHub-3000-0010",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "Operations Viewer",
+      "createdAt": "2025-12-05T22:24:05.864Z",
+      "updatedAt": "2025-12-30T09:46:23.902Z"
+    },
+    {
+      "id": "ticket-0012",
+      "title": "System reset needed",
+      "description": "Device requires a full system reset to restore normal operation.",
+      "status": "done",
+      "priority": "critical",
+      "type": "inspection",
+      "deviceId": "device-014",
+      "deviceName": "MonitorStation-M2-0014",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "System Admin",
+      "createdAt": "2025-12-09T05:32:47.942Z",
+      "updatedAt": "2025-12-11T06:08:06.387Z"
+    },
+    {
+      "id": "ticket-0013",
+      "title": "Sensor calibration needed",
+      "description": "Sensor readings are showing drift from expected baseline values.",
+      "status": "waiting_parts",
+      "priority": "critical",
+      "type": "repair",
+      "deviceId": "device-016",
+      "deviceName": "ControlUnit-C5-0016",
+      "assigneeId": "user-3",
+      "assigneeName": "Mary Johnson",
+      "createdBy": "Mary Johnson",
+      "createdAt": "2026-01-03T17:39:01.220Z",
+      "updatedAt": "2026-01-12T12:04:21.447Z"
+    },
+    {
+      "id": "ticket-0014",
+      "title": "Network connectivity issues",
+      "description": "Device is experiencing intermittent connectivity drops to the central server.",
+      "status": "new",
+      "priority": "critical",
+      "type": "repair",
+      "deviceId": "device-007",
+      "deviceName": "SensorHub-3000-0007",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "Mary Johnson",
+      "createdAt": "2026-02-02T12:07:43.612Z",
+      "updatedAt": "2026-02-02T22:57:43.070Z"
+    },
+    {
+      "id": "ticket-0015",
+      "title": "System reset needed",
+      "description": "Device requires a full system reset to restore normal operation.",
+      "status": "waiting_parts",
+      "priority": "critical",
+      "type": "maintenance",
+      "deviceId": "device-005",
+      "deviceName": "GatewayPro-X1-0005",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "Operations Viewer",
+      "createdAt": "2025-12-21T09:52:50.785Z",
+      "updatedAt": "2026-01-29T12:21:25.335Z"
+    },
+    {
+      "id": "ticket-0016",
+      "title": "Network connectivity issues",
+      "description": "Device is experiencing intermittent connectivity drops to the central server.",
+      "status": "done",
+      "priority": "low",
+      "type": "rma",
+      "deviceId": "device-025",
+      "deviceName": "MonitorStation-M2-0025",
+      "assigneeId": "user-1",
+      "assigneeName": "System Admin",
+      "createdBy": "Operations Viewer",
+      "createdAt": "2026-02-01T10:20:39.280Z",
+      "updatedAt": "2026-02-02T16:04:22.941Z"
+    },
+    {
+      "id": "ticket-0017",
+      "title": "Network connectivity issues",
+      "description": "Device is experiencing intermittent connectivity drops to the central server.",
+      "status": "new",
+      "priority": "medium",
+      "type": "repair",
+      "deviceId": "device-004",
+      "deviceName": "IoTBridge-100-0004",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "John Smith",
+      "createdAt": "2026-01-26T21:17:04.154Z",
+      "updatedAt": "2026-01-28T12:43:32.099Z"
+    },
+    {
+      "id": "ticket-0018",
+      "title": "System reset needed",
+      "description": "Device requires a full system reset to restore normal operation.",
+      "status": "new",
+      "priority": "medium",
+      "type": "maintenance",
+      "deviceId": "device-016",
+      "deviceName": "ControlUnit-C5-0016",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "Mary Johnson",
+      "createdAt": "2025-12-23T05:19:27.441Z",
+      "updatedAt": "2026-01-25T00:47:41.541Z"
+    },
+    {
+      "id": "ticket-0019",
+      "title": "Performance degradation",
+      "description": "Device performance has degraded significantly compared to baseline.",
+      "status": "waiting_parts",
+      "priority": "high",
+      "type": "rma",
+      "deviceId": "device-016",
+      "deviceName": "ControlUnit-C5-0016",
+      "assigneeId": "user-3",
+      "assigneeName": "Mary Johnson",
+      "createdBy": "Operations Viewer",
+      "createdAt": "2025-12-23T15:44:43.710Z",
+      "updatedAt": "2026-01-10T07:29:10.646Z"
+    },
+    {
+      "id": "ticket-0020",
+      "title": "Device not responding",
+      "description": "Device has stopped sending telemetry data and requires investigation.",
+      "status": "in_progress",
+      "priority": "critical",
+      "type": "rma",
+      "deviceId": "device-030",
+      "deviceName": "SensorHub-3000-0030",
+      "assigneeId": "user-1",
+      "assigneeName": "System Admin",
+      "createdBy": "System Admin",
+      "createdAt": "2026-01-16T15:27:06.226Z",
+      "updatedAt": "2026-01-23T10:01:03.868Z"
+    },
+    {
+      "id": "ticket-0021",
+      "title": "Replace faulty component",
+      "description": "Identified faulty component that needs to be replaced under warranty.",
+      "status": "done",
+      "priority": "high",
+      "type": "repair",
+      "deviceId": "device-023",
+      "deviceName": "MonitorStation-M2-0023",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "John Smith",
+      "createdAt": "2025-12-24T04:06:09.555Z",
+      "updatedAt": "2026-01-23T15:03:47.418Z"
+    },
+    {
+      "id": "ticket-0022",
+      "title": "Replace faulty component",
+      "description": "Identified faulty component that needs to be replaced under warranty.",
+      "status": "new",
+      "priority": "high",
+      "type": "maintenance",
+      "deviceId": "device-018",
+      "deviceName": "ControlUnit-C5-0018",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "Mary Johnson",
+      "createdAt": "2026-01-12T18:18:13.118Z",
+      "updatedAt": "2026-01-16T23:26:50.888Z"
+    },
+    {
+      "id": "ticket-0023",
+      "title": "Security patch required",
+      "description": "Critical security vulnerability identified that requires patching.",
+      "status": "in_progress",
+      "priority": "low",
+      "type": "inspection",
+      "deviceId": "device-020",
+      "deviceName": "DataCollector-200-0020",
+      "assigneeId": "user-1",
+      "assigneeName": "System Admin",
+      "createdBy": "Mary Johnson",
+      "createdAt": "2026-01-05T11:30:34.991Z",
+      "updatedAt": "2026-01-17T10:00:36.806Z"
+    },
+    {
+      "id": "ticket-0024",
+      "title": "Device relocation",
+      "description": "Device needs to be physically moved to a new location.",
+      "status": "in_progress",
+      "priority": "high",
+      "type": "repair",
+      "deviceId": "device-011",
+      "deviceName": "DataCollector-200-0011",
+      "assigneeId": "user-1",
+      "assigneeName": "System Admin",
+      "createdBy": "System Admin",
+      "createdAt": "2026-01-22T06:12:07.573Z",
+      "updatedAt": "2026-01-26T20:57:35.438Z"
+    },
+    {
+      "id": "ticket-0025",
+      "title": "Network connectivity issues",
+      "description": "Device is experiencing intermittent connectivity drops to the central server.",
+      "status": "in_progress",
+      "priority": "critical",
+      "type": "maintenance",
+      "deviceId": "device-011",
+      "deviceName": "DataCollector-200-0011",
+      "assigneeId": "user-1",
+      "assigneeName": "System Admin",
+      "createdBy": "John Smith",
+      "createdAt": "2025-12-31T04:08:54.387Z",
+      "updatedAt": "2026-01-24T02:29:03.895Z"
+    },
+    {
+      "id": "ticket-0026",
+      "title": "Firmware update required",
+      "description": "Current firmware version is outdated and needs to be updated to the latest stable release.",
+      "status": "new",
+      "priority": "high",
+      "type": "maintenance",
+      "deviceId": "device-026",
+      "deviceName": "SmartMeter-A1-0026",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "System Admin",
+      "createdAt": "2025-12-29T13:50:23.611Z",
+      "updatedAt": "2026-01-08T06:17:11.220Z"
+    },
+    {
+      "id": "ticket-0027",
+      "title": "Firmware update required",
+      "description": "Current firmware version is outdated and needs to be updated to the latest stable release.",
+      "status": "done",
+      "priority": "critical",
+      "type": "rma",
+      "deviceId": "device-008",
+      "deviceName": "ControlUnit-C5-0008",
+      "assigneeId": "user-1",
+      "assigneeName": "System Admin",
+      "createdBy": "Mary Johnson",
+      "createdAt": "2025-12-09T11:38:23.912Z",
+      "updatedAt": "2025-12-17T00:29:48.600Z"
+    },
+    {
+      "id": "ticket-0028",
+      "title": "Replace faulty component",
+      "description": "Identified faulty component that needs to be replaced under warranty.",
+      "status": "done",
+      "priority": "medium",
+      "type": "inspection",
+      "deviceId": "device-006",
+      "deviceName": "GatewayPro-X1-0006",
+      "assigneeId": "user-2",
+      "assigneeName": "John Smith",
+      "createdBy": "System Admin",
+      "createdAt": "2026-01-25T12:51:49.960Z",
+      "updatedAt": "2026-01-29T09:16:58.485Z"
+    },
+    {
+      "id": "ticket-0029",
+      "title": "Data anomaly detected",
+      "description": "Unusual patterns detected in the device data that require analysis.",
+      "status": "waiting_parts",
+      "priority": "high",
+      "type": "repair",
+      "deviceId": "device-021",
+      "deviceName": "SmartMeter-A1-0021",
+      "assigneeId": "user-1",
+      "assigneeName": "System Admin",
+      "createdBy": "Mary Johnson",
+      "createdAt": "2025-12-22T01:46:14.521Z",
+      "updatedAt": "2026-01-14T00:40:11.727Z"
+    },
+    {
+      "id": "ticket-0030",
+      "title": "Network connectivity issues",
+      "description": "Device is experiencing intermittent connectivity drops to the central server.",
+      "status": "waiting_parts",
+      "priority": "low",
+      "type": "rma",
+      "deviceId": "device-028",
+      "deviceName": "GatewayPro-X1-0028",
+      "assigneeId": "user-3",
+      "assigneeName": "Mary Johnson",
+      "createdBy": "Mary Johnson",
+      "createdAt": "2025-12-31T09:48:14.463Z",
+      "updatedAt": "2026-01-25T05:29:30.283Z"
+    },
+    {
+      "id": "ticket-0031",
+      "title": "System reset needed",
+      "description": "Device requires a full system reset to restore normal operation.",
+      "status": "waiting_parts",
+      "priority": "medium",
+      "type": "repair",
+      "deviceId": "device-012",
+      "deviceName": "GatewayPro-X1-0012",
+      "assigneeId": "user-3",
+      "assigneeName": "Mary Johnson",
+      "createdBy": "John Smith",
+      "createdAt": "2026-01-20T12:35:01.781Z",
+      "updatedAt": "2026-01-30T06:02:19.028Z"
+    },
+    {
+      "id": "ticket-0032",
+      "title": "Data anomaly detected",
+      "description": "Unusual patterns detected in the device data that require analysis.",
+      "status": "new",
+      "priority": "critical",
+      "type": "rma",
+      "deviceId": "device-006",
+      "deviceName": "GatewayPro-X1-0006",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "Mary Johnson",
+      "createdAt": "2026-01-14T05:49:39.056Z",
+      "updatedAt": "2026-01-31T00:25:02.503Z"
+    },
+    {
+      "id": "ticket-0033",
+      "title": "Configuration error",
+      "description": "Configuration settings are incorrect and causing operational issues.",
+      "status": "done",
+      "priority": "critical",
+      "type": "rma",
+      "deviceId": "device-017",
+      "deviceName": "SensorHub-3000-0017",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "Mary Johnson",
+      "createdAt": "2026-01-18T21:23:21.330Z",
+      "updatedAt": "2026-01-29T20:14:26.773Z"
+    },
+    {
+      "id": "ticket-0034",
+      "title": "Diagnostic check",
+      "description": "Comprehensive diagnostic check requested by the operations team.",
+      "status": "new",
+      "priority": "critical",
+      "type": "inspection",
+      "deviceId": "device-014",
+      "deviceName": "MonitorStation-M2-0014",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "System Admin",
+      "createdAt": "2025-12-18T23:57:28.947Z",
+      "updatedAt": "2025-12-19T13:43:10.630Z"
+    },
+    {
+      "id": "ticket-0035",
+      "title": "Security patch required",
+      "description": "Critical security vulnerability identified that requires patching.",
+      "status": "waiting_parts",
+      "priority": "high",
+      "type": "inspection",
+      "deviceId": "device-008",
+      "deviceName": "ControlUnit-C5-0008",
+      "assigneeId": "user-2",
+      "assigneeName": "John Smith",
+      "createdBy": "John Smith",
+      "createdAt": "2025-12-08T12:38:40.479Z",
+      "updatedAt": "2026-01-12T14:52:54.408Z"
+    },
+    {
+      "id": "ticket-0036",
+      "title": "Configuration error",
+      "description": "Configuration settings are incorrect and causing operational issues.",
+      "status": "done",
+      "priority": "medium",
+      "type": "repair",
+      "deviceId": "device-002",
+      "deviceName": "GatewayPro-X1-0002",
+      "assigneeId": "user-3",
+      "assigneeName": "Mary Johnson",
+      "createdBy": "John Smith",
+      "createdAt": "2026-01-30T12:21:46.292Z",
+      "updatedAt": "2026-02-02T21:42:10.488Z"
+    },
+    {
+      "id": "ticket-0037",
+      "title": "Device relocation",
+      "description": "Device needs to be physically moved to a new location.",
+      "status": "new",
+      "priority": "critical",
+      "type": "inspection",
+      "deviceId": "device-002",
+      "deviceName": "GatewayPro-X1-0002",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "John Smith",
+      "createdAt": "2026-01-05T15:37:43.685Z",
+      "updatedAt": "2026-02-02T01:19:11.884Z"
+    },
+    {
+      "id": "ticket-0038",
+      "title": "Device not responding",
+      "description": "Device has stopped sending telemetry data and requires investigation.",
+      "status": "new",
+      "priority": "low",
+      "type": "repair",
+      "deviceId": "device-019",
+      "deviceName": "DataCollector-200-0019",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "System Admin",
+      "createdAt": "2025-12-11T10:19:49.509Z",
+      "updatedAt": "2026-01-21T19:51:55.761Z"
+    },
+    {
+      "id": "ticket-0039",
+      "title": "Network connectivity issues",
+      "description": "Device is experiencing intermittent connectivity drops to the central server.",
+      "status": "new",
+      "priority": "critical",
+      "type": "inspection",
+      "deviceId": "device-027",
+      "deviceName": "DataCollector-200-0027",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "John Smith",
+      "createdAt": "2025-12-09T18:40:49.351Z",
+      "updatedAt": "2025-12-31T22:49:52.890Z"
+    },
+    {
+      "id": "ticket-0040",
+      "title": "System reset needed",
+      "description": "Device requires a full system reset to restore normal operation.",
+      "status": "waiting_parts",
+      "priority": "medium",
+      "type": "rma",
+      "deviceId": "device-025",
+      "deviceName": "MonitorStation-M2-0025",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "John Smith",
+      "createdAt": "2026-01-20T19:57:08.536Z",
+      "updatedAt": "2026-01-21T01:03:08.334Z"
+    },
+    {
+      "id": "ticket-0041",
+      "title": "Device not responding",
+      "description": "Device has stopped sending telemetry data and requires investigation.",
+      "status": "new",
+      "priority": "critical",
+      "type": "maintenance",
+      "deviceId": "device-003",
+      "deviceName": "GatewayPro-X1-0003",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "Mary Johnson",
+      "createdAt": "2026-01-13T02:43:12.759Z",
+      "updatedAt": "2026-01-24T07:40:53.781Z"
+    },
+    {
+      "id": "ticket-0042",
+      "title": "Battery replacement",
+      "description": "Battery level is critically low and requires immediate replacement.",
+      "status": "new",
+      "priority": "low",
+      "type": "repair",
+      "deviceId": "device-011",
+      "deviceName": "DataCollector-200-0011",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "John Smith",
+      "createdAt": "2026-01-17T02:11:22.991Z",
+      "updatedAt": "2026-01-25T02:33:06.990Z"
+    },
+    {
+      "id": "ticket-0043",
+      "title": "Sensor calibration needed",
+      "description": "Sensor readings are showing drift from expected baseline values.",
+      "status": "waiting_parts",
+      "priority": "high",
+      "type": "rma",
+      "deviceId": "device-009",
+      "deviceName": "ControlUnit-C5-0009",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "John Smith",
+      "createdAt": "2025-12-10T03:14:30.852Z",
+      "updatedAt": "2026-01-09T11:07:30.766Z"
+    },
+    {
+      "id": "ticket-0044",
+      "title": "Firmware update required",
+      "description": "Current firmware version is outdated and needs to be updated to the latest stable release.",
+      "status": "in_progress",
+      "priority": "critical",
+      "type": "rma",
+      "deviceId": "device-014",
+      "deviceName": "MonitorStation-M2-0014",
+      "assigneeId": "user-1",
+      "assigneeName": "System Admin",
+      "createdBy": "Mary Johnson",
+      "createdAt": "2025-12-21T11:36:32.282Z",
+      "updatedAt": "2026-01-09T07:58:51.784Z"
+    },
+    {
+      "id": "ticket-0045",
+      "title": "Data anomaly detected",
+      "description": "Unusual patterns detected in the device data that require analysis.",
+      "status": "waiting_parts",
+      "priority": "low",
+      "type": "repair",
+      "deviceId": "device-023",
+      "deviceName": "MonitorStation-M2-0023",
+      "assigneeId": "user-2",
+      "assigneeName": "John Smith",
+      "createdBy": "Mary Johnson",
+      "createdAt": "2025-12-21T21:18:55.805Z",
+      "updatedAt": "2026-01-17T18:21:03.882Z"
+    },
+    {
+      "id": "ticket-0046",
+      "title": "Device not responding",
+      "description": "Device has stopped sending telemetry data and requires investigation.",
+      "status": "new",
+      "priority": "critical",
+      "type": "inspection",
+      "deviceId": "device-015",
+      "deviceName": "EdgeNode-500-0015",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "John Smith",
+      "createdAt": "2026-01-14T08:01:14.123Z",
+      "updatedAt": "2026-01-18T07:44:42.805Z"
+    },
+    {
+      "id": "ticket-0047",
+      "title": "Security patch required",
+      "description": "Critical security vulnerability identified that requires patching.",
+      "status": "waiting_parts",
+      "priority": "medium",
+      "type": "maintenance",
+      "deviceId": "device-010",
+      "deviceName": "SensorHub-3000-0010",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "John Smith",
+      "createdAt": "2025-12-09T03:28:09.716Z",
+      "updatedAt": "2026-01-06T07:29:02.444Z"
+    },
+    {
+      "id": "ticket-0048",
+      "title": "Sensor calibration needed",
+      "description": "Sensor readings are showing drift from expected baseline values.",
+      "status": "waiting_parts",
+      "priority": "medium",
+      "type": "repair",
+      "deviceId": "device-010",
+      "deviceName": "SensorHub-3000-0010",
+      "assigneeId": "user-2",
+      "assigneeName": "John Smith",
+      "createdBy": "System Admin",
+      "createdAt": "2025-12-15T19:33:28.927Z",
+      "updatedAt": "2026-01-28T17:30:03.414Z"
+    },
+    {
+      "id": "ticket-0049",
+      "title": "Hardware malfunction",
+      "description": "Hardware component appears to be malfunctioning and may need replacement.",
+      "status": "new",
+      "priority": "critical",
+      "type": "repair",
+      "deviceId": "device-011",
+      "deviceName": "DataCollector-200-0011",
+      "assigneeId": null,
+      "assigneeName": null,
+      "createdBy": "John Smith",
+      "createdAt": "2025-12-27T23:24:21.064Z",
+      "updatedAt": "2026-01-21T08:20:50.400Z"
+    },
+    {
+      "id": "ticket-0050",
+      "title": "Security patch required",
+      "description": "Critical security vulnerability identified that requires patching.",
+      "status": "done",
+      "priority": "high",
+      "type": "repair",
+      "deviceId": "device-013",
+      "deviceName": "EdgeNode-500-0013",
+      "assigneeId": "user-1",
+      "assigneeName": "System Admin",
+      "createdBy": "System Admin",
+      "createdAt": "2026-01-22T19:23:35.072Z",
+      "updatedAt": "2026-01-31T22:59:47.644Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-00033",
+      "entityType": "device",
+      "entityId": "device-017",
+      "action": "device_updated",
+      "changes": {
+        "firmwareVersion": {
+          "old": "1.0.0",
+          "new": "2.1.0"
+        }
+      },
+      "performedBy": "John Smith",
+      "performedAt": "2026-02-02T22:44:50.582Z",
+      "description": "Device SensorHub-3000-0017 firmware was updated"
+    },
+    {
+      "id": "log-00147",
+      "entityType": "ticket",
+      "entityId": "ticket-0036",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "in_progress",
+          "new": "done"
+        }
+      },
+      "performedBy": "Mary Johnson",
+      "performedAt": "2026-02-02T21:42:10.488Z",
+      "description": "Ticket status changed from In Progress to Done"
+    },
+    {
+      "id": "log-00008",
+      "entityType": "device",
+      "entityId": "device-004",
+      "action": "device_status_changed",
+      "changes": {
+        "status": {
+          "old": "online",
+          "new": "maintenance"
+        }
+      },
+      "performedBy": "System",
+      "performedAt": "2026-02-02T20:16:20.710Z",
+      "description": "Device IoTBridge-100-0004 status changed to maintenance"
+    },
+    {
+      "id": "log-00011",
+      "entityType": "device",
+      "entityId": "device-006",
+      "action": "device_updated",
+      "changes": {
+        "firmwareVersion": {
+          "old": "1.0.0",
+          "new": "1.0.1"
+        }
+      },
+      "performedBy": "John Smith",
+      "performedAt": "2026-02-02T20:13:00.311Z",
+      "description": "Device GatewayPro-X1-0006 firmware was updated"
+    },
+    {
+      "id": "log-00096",
+      "entityType": "ticket",
+      "entityId": "ticket-0016",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "in_progress",
+          "new": "done"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-02-02T16:04:22.941Z",
+      "description": "Ticket status changed from In Progress to Done"
+    },
+    {
+      "id": "log-00091",
+      "entityType": "ticket",
+      "entityId": "ticket-0014",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "Mary Johnson",
+      "performedAt": "2026-02-02T12:07:43.612Z",
+      "description": "Ticket \"Network connectivity issues\" was created"
+    },
+    {
+      "id": "log-00007",
+      "entityType": "device",
+      "entityId": "device-004",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "System Admin",
+      "performedAt": "2026-02-02T11:17:12.508Z",
+      "description": "Device IoTBridge-100-0004 was created"
+    },
+    {
+      "id": "log-00010",
+      "entityType": "device",
+      "entityId": "device-006",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "Mary Johnson",
+      "performedAt": "2026-02-02T10:50:21.646Z",
+      "description": "Device GatewayPro-X1-0006 was created"
+    },
+    {
+      "id": "log-00097",
+      "entityType": "ticket",
+      "entityId": "ticket-0016",
+      "action": "ticket_assigned",
+      "changes": {
+        "assigneeId": {
+          "old": null,
+          "new": "user-1"
+        },
+        "assigneeName": {
+          "old": null,
+          "new": "System Admin"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-02-02T02:56:41.895Z",
+      "description": "Ticket assigned to System Admin"
+    },
+    {
+      "id": "log-00095",
+      "entityType": "ticket",
+      "entityId": "ticket-0016",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "in_progress"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-02-02T00:44:29.278Z",
+      "description": "Ticket status changed from New to In Progress"
+    },
+    {
+      "id": "log-00076",
+      "entityType": "ticket",
+      "entityId": "ticket-0007",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "in_progress",
+          "new": "done"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-02-02T00:26:14.615Z",
+      "description": "Ticket status changed from In Progress to Done"
+    },
+    {
+      "id": "log-00146",
+      "entityType": "ticket",
+      "entityId": "ticket-0036",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "in_progress"
+        }
+      },
+      "performedBy": "Mary Johnson",
+      "performedAt": "2026-02-01T21:27:08.152Z",
+      "description": "Ticket status changed from New to In Progress"
+    },
+    {
+      "id": "log-00148",
+      "entityType": "ticket",
+      "entityId": "ticket-0036",
+      "action": "ticket_assigned",
+      "changes": {
+        "assigneeId": {
+          "old": null,
+          "new": "user-3"
+        },
+        "assigneeName": {
+          "old": null,
+          "new": "Mary Johnson"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-02-01T16:46:34.158Z",
+      "description": "Ticket assigned to Mary Johnson"
+    },
+    {
+      "id": "log-00017",
+      "entityType": "device",
+      "entityId": "device-009",
+      "action": "device_updated",
+      "changes": {
+        "firmwareVersion": {
+          "old": "1.0.0",
+          "new": "2.0.1"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-02-01T10:30:59.520Z",
+      "description": "Device ControlUnit-C5-0009 firmware was updated"
+    },
+    {
+      "id": "log-00094",
+      "entityType": "ticket",
+      "entityId": "ticket-0016",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "Operations Viewer",
+      "performedAt": "2026-02-01T10:20:39.280Z",
+      "description": "Ticket \"Network connectivity issues\" was created"
+    },
+    {
+      "id": "log-00016",
+      "entityType": "device",
+      "entityId": "device-009",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "System Admin",
+      "performedAt": "2026-02-01T00:07:29.663Z",
+      "description": "Device ControlUnit-C5-0009 was created"
+    },
+    {
+      "id": "log-00173",
+      "entityType": "ticket",
+      "entityId": "ticket-0050",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "in_progress",
+          "new": "done"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-31T22:59:47.644Z",
+      "description": "Ticket status changed from In Progress to Done"
+    },
+    {
+      "id": "log-00174",
+      "entityType": "ticket",
+      "entityId": "ticket-0050",
+      "action": "ticket_assigned",
+      "changes": {
+        "assigneeId": {
+          "old": null,
+          "new": "user-1"
+        },
+        "assigneeName": {
+          "old": null,
+          "new": "System Admin"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-31T17:12:26.105Z",
+      "description": "Ticket assigned to System Admin"
+    },
+    {
+      "id": "log-00004",
+      "entityType": "device",
+      "entityId": "device-002",
+      "action": "device_status_changed",
+      "changes": {
+        "status": {
+          "old": "online",
+          "new": "maintenance"
+        }
+      },
+      "performedBy": "System",
+      "performedAt": "2026-01-31T11:18:49.475Z",
+      "description": "Device GatewayPro-X1-0002 status changed to maintenance"
+    },
+    {
+      "id": "log-00019",
+      "entityType": "device",
+      "entityId": "device-010",
+      "action": "device_status_changed",
+      "changes": {
+        "status": {
+          "old": "online",
+          "new": "offline"
+        }
+      },
+      "performedBy": "System",
+      "performedAt": "2026-01-30T20:59:51.845Z",
+      "description": "Device SensorHub-3000-0010 status changed to offline"
+    },
+    {
+      "id": "log-00145",
+      "entityType": "ticket",
+      "entityId": "ticket-0036",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2026-01-30T12:21:46.292Z",
+      "description": "Ticket \"Configuration error\" was created"
+    },
+    {
+      "id": "log-00140",
+      "entityType": "ticket",
+      "entityId": "ticket-0033",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "in_progress",
+          "new": "done"
+        }
+      },
+      "performedBy": "John Smith",
+      "performedAt": "2026-01-29T20:14:26.773Z",
+      "description": "Ticket status changed from In Progress to Done"
+    },
+    {
+      "id": "log-00126",
+      "entityType": "ticket",
+      "entityId": "ticket-0028",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "in_progress",
+          "new": "done"
+        }
+      },
+      "performedBy": "John Smith",
+      "performedAt": "2026-01-29T09:16:58.485Z",
+      "description": "Ticket status changed from In Progress to Done"
+    },
+    {
+      "id": "log-00139",
+      "entityType": "ticket",
+      "entityId": "ticket-0033",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "in_progress"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-29T05:14:33.389Z",
+      "description": "Ticket status changed from New to In Progress"
+    },
+    {
+      "id": "log-00063",
+      "entityType": "ticket",
+      "entityId": "ticket-0003",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "waiting_parts"
+        }
+      },
+      "performedBy": "John Smith",
+      "performedAt": "2026-01-29T05:11:29.418Z",
+      "description": "Ticket status changed from New to waiting_parts"
+    },
+    {
+      "id": "log-00050",
+      "entityType": "device",
+      "entityId": "device-026",
+      "action": "device_updated",
+      "changes": {
+        "firmwareVersion": {
+          "old": "1.0.0",
+          "new": "1.2.0"
+        }
+      },
+      "performedBy": "John Smith",
+      "performedAt": "2026-01-28T20:30:53.597Z",
+      "description": "Device SmartMeter-A1-0026 firmware was updated"
+    },
+    {
+      "id": "log-00075",
+      "entityType": "ticket",
+      "entityId": "ticket-0007",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "in_progress"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-28T13:28:06.502Z",
+      "description": "Ticket status changed from New to In Progress"
+    },
+    {
+      "id": "log-00067",
+      "entityType": "ticket",
+      "entityId": "ticket-0004",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "in_progress",
+          "new": "done"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-28T07:57:04.579Z",
+      "description": "Ticket status changed from In Progress to Done"
+    },
+    {
+      "id": "log-00172",
+      "entityType": "ticket",
+      "entityId": "ticket-0050",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "in_progress"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-27T21:11:28.156Z",
+      "description": "Ticket status changed from New to In Progress"
+    },
+    {
+      "id": "log-00049",
+      "entityType": "device",
+      "entityId": "device-026",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2026-01-27T16:57:52.831Z",
+      "description": "Device SmartMeter-A1-0026 was created"
+    },
+    {
+      "id": "log-00125",
+      "entityType": "ticket",
+      "entityId": "ticket-0028",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "in_progress"
+        }
+      },
+      "performedBy": "John Smith",
+      "performedAt": "2026-01-27T11:02:44.223Z",
+      "description": "Ticket status changed from New to In Progress"
+    },
+    {
+      "id": "log-00077",
+      "entityType": "ticket",
+      "entityId": "ticket-0007",
+      "action": "ticket_assigned",
+      "changes": {
+        "assigneeId": {
+          "old": null,
+          "new": "user-1"
+        },
+        "assigneeName": {
+          "old": null,
+          "new": "System Admin"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-27T10:32:53.797Z",
+      "description": "Ticket assigned to System Admin"
+    },
+    {
+      "id": "log-00074",
+      "entityType": "ticket",
+      "entityId": "ticket-0007",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "Operations Viewer",
+      "performedAt": "2026-01-27T04:39:45.975Z",
+      "description": "Ticket \"Scheduled maintenance\" was created"
+    },
+    {
+      "id": "log-00127",
+      "entityType": "ticket",
+      "entityId": "ticket-0028",
+      "action": "ticket_assigned",
+      "changes": {
+        "assigneeId": {
+          "old": null,
+          "new": "user-2"
+        },
+        "assigneeName": {
+          "old": null,
+          "new": "John Smith"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-26T22:57:17.517Z",
+      "description": "Ticket assigned to John Smith"
+    },
+    {
+      "id": "log-00098",
+      "entityType": "ticket",
+      "entityId": "ticket-0017",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2026-01-26T21:17:04.154Z",
+      "description": "Ticket \"Network connectivity issues\" was created"
+    },
+    {
+      "id": "log-00029",
+      "entityType": "device",
+      "entityId": "device-015",
+      "action": "device_updated",
+      "changes": {
+        "firmwareVersion": {
+          "old": "1.0.0",
+          "new": "1.2.0"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-26T07:12:51.398Z",
+      "description": "Device EdgeNode-500-0015 firmware was updated"
+    },
+    {
+      "id": "log-00114",
+      "entityType": "ticket",
+      "entityId": "ticket-0024",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "in_progress"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-25T20:33:23.972Z",
+      "description": "Ticket status changed from New to in_progress"
+    },
+    {
+      "id": "log-00115",
+      "entityType": "ticket",
+      "entityId": "ticket-0024",
+      "action": "ticket_assigned",
+      "changes": {
+        "assigneeId": {
+          "old": null,
+          "new": "user-1"
+        },
+        "assigneeName": {
+          "old": null,
+          "new": "System Admin"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-25T16:57:38.709Z",
+      "description": "Ticket assigned to System Admin"
+    },
+    {
+      "id": "log-00124",
+      "entityType": "ticket",
+      "entityId": "ticket-0028",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-25T12:51:49.960Z",
+      "description": "Ticket \"Replace faulty component\" was created"
+    },
+    {
+      "id": "log-00080",
+      "entityType": "ticket",
+      "entityId": "ticket-0009",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "waiting_parts"
+        }
+      },
+      "performedBy": "John Smith",
+      "performedAt": "2026-01-25T11:49:50.176Z",
+      "description": "Ticket status changed from New to waiting_parts"
+    },
+    {
+      "id": "log-00136",
+      "entityType": "ticket",
+      "entityId": "ticket-0031",
+      "action": "ticket_assigned",
+      "changes": {
+        "assigneeId": {
+          "old": null,
+          "new": "user-3"
+        },
+        "assigneeName": {
+          "old": null,
+          "new": "Mary Johnson"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-24T08:10:33.157Z",
+      "description": "Ticket assigned to Mary Johnson"
+    },
+    {
+      "id": "log-00064",
+      "entityType": "ticket",
+      "entityId": "ticket-0003",
+      "action": "ticket_assigned",
+      "changes": {
+        "assigneeId": {
+          "old": null,
+          "new": "user-2"
+        },
+        "assigneeName": {
+          "old": null,
+          "new": "John Smith"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-24T06:47:25.218Z",
+      "description": "Ticket assigned to John Smith"
+    },
+    {
+      "id": "log-00108",
+      "entityType": "ticket",
+      "entityId": "ticket-0021",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "in_progress",
+          "new": "done"
+        }
+      },
+      "performedBy": "Mary Johnson",
+      "performedAt": "2026-01-23T15:03:47.418Z",
+      "description": "Ticket status changed from In Progress to Done"
+    },
+    {
+      "id": "log-00135",
+      "entityType": "ticket",
+      "entityId": "ticket-0031",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "waiting_parts"
+        }
+      },
+      "performedBy": "Mary Johnson",
+      "performedAt": "2026-01-23T09:30:02.684Z",
+      "description": "Ticket status changed from New to waiting_parts"
+    },
+    {
+      "id": "log-00081",
+      "entityType": "ticket",
+      "entityId": "ticket-0009",
+      "action": "ticket_assigned",
+      "changes": {
+        "assigneeId": {
+          "old": null,
+          "new": "user-2"
+        },
+        "assigneeName": {
+          "old": null,
+          "new": "John Smith"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-23T08:42:00.838Z",
+      "description": "Ticket assigned to John Smith"
+    },
+    {
+      "id": "log-00079",
+      "entityType": "ticket",
+      "entityId": "ticket-0009",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2026-01-23T00:43:58.697Z",
+      "description": "Ticket \"Device not responding\" was created"
+    },
+    {
+      "id": "log-00171",
+      "entityType": "ticket",
+      "entityId": "ticket-0050",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-22T19:23:35.072Z",
+      "description": "Ticket \"Security patch required\" was created"
+    },
+    {
+      "id": "log-00031",
+      "entityType": "device",
+      "entityId": "device-016",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-22T09:07:33.427Z",
+      "description": "Device ControlUnit-C5-0016 was created"
+    },
+    {
+      "id": "log-00113",
+      "entityType": "ticket",
+      "entityId": "ticket-0024",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-22T06:12:07.573Z",
+      "description": "Ticket \"Device relocation\" was created"
+    },
+    {
+      "id": "log-00153",
+      "entityType": "ticket",
+      "entityId": "ticket-0040",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "waiting_parts"
+        }
+      },
+      "performedBy": "Mary Johnson",
+      "performedAt": "2026-01-21T00:53:39.973Z",
+      "description": "Ticket status changed from New to waiting_parts"
+    },
+    {
+      "id": "log-00152",
+      "entityType": "ticket",
+      "entityId": "ticket-0040",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2026-01-20T19:57:08.536Z",
+      "description": "Ticket \"System reset needed\" was created"
+    },
+    {
+      "id": "log-00104",
+      "entityType": "ticket",
+      "entityId": "ticket-0020",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "in_progress"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-20T19:04:15.497Z",
+      "description": "Ticket status changed from New to in_progress"
+    },
+    {
+      "id": "log-00062",
+      "entityType": "ticket",
+      "entityId": "ticket-0003",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2026-01-20T16:05:11.632Z",
+      "description": "Ticket \"Diagnostic check\" was created"
+    },
+    {
+      "id": "log-00134",
+      "entityType": "ticket",
+      "entityId": "ticket-0031",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2026-01-20T12:35:01.781Z",
+      "description": "Ticket \"System reset needed\" was created"
+    },
+    {
+      "id": "log-00021",
+      "entityType": "device",
+      "entityId": "device-011",
+      "action": "device_status_changed",
+      "changes": {
+        "status": {
+          "old": "online",
+          "new": "offline"
+        }
+      },
+      "performedBy": "System",
+      "performedAt": "2026-01-20T00:10:39.325Z",
+      "description": "Device DataCollector-200-0011 status changed to offline"
+    },
+    {
+      "id": "log-00093",
+      "entityType": "ticket",
+      "entityId": "ticket-0015",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "waiting_parts"
+        }
+      },
+      "performedBy": "Mary Johnson",
+      "performedAt": "2026-01-19T13:55:31.343Z",
+      "description": "Ticket status changed from New to waiting_parts"
+    },
+    {
+      "id": "log-00105",
+      "entityType": "ticket",
+      "entityId": "ticket-0020",
+      "action": "ticket_assigned",
+      "changes": {
+        "assigneeId": {
+          "old": null,
+          "new": "user-1"
+        },
+        "assigneeName": {
+          "old": null,
+          "new": "System Admin"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-19T02:55:31.888Z",
+      "description": "Ticket assigned to System Admin"
+    },
+    {
+      "id": "log-00138",
+      "entityType": "ticket",
+      "entityId": "ticket-0033",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "Mary Johnson",
+      "performedAt": "2026-01-18T21:23:21.330Z",
+      "description": "Ticket \"Configuration error\" was created"
+    },
+    {
+      "id": "log-00034",
+      "entityType": "device",
+      "entityId": "device-017",
+      "action": "device_status_changed",
+      "changes": {
+        "status": {
+          "old": "online",
+          "new": "maintenance"
+        }
+      },
+      "performedBy": "System",
+      "performedAt": "2026-01-18T18:24:16.974Z",
+      "description": "Device SensorHub-3000-0017 status changed to maintenance"
+    },
+    {
+      "id": "log-00006",
+      "entityType": "device",
+      "entityId": "device-003",
+      "action": "device_updated",
+      "changes": {
+        "firmwareVersion": {
+          "old": "1.0.0",
+          "new": "1.2.0"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-18T11:30:31.519Z",
+      "description": "Device GatewayPro-X1-0003 firmware was updated"
+    },
+    {
+      "id": "log-00003",
+      "entityType": "device",
+      "entityId": "device-002",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "Mary Johnson",
+      "performedAt": "2026-01-17T10:45:33.833Z",
+      "description": "Device GatewayPro-X1-0002 was created"
+    },
+    {
+      "id": "log-00132",
+      "entityType": "ticket",
+      "entityId": "ticket-0030",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "waiting_parts"
+        }
+      },
+      "performedBy": "Mary Johnson",
+      "performedAt": "2026-01-17T09:04:43.176Z",
+      "description": "Ticket status changed from New to waiting_parts"
+    },
+    {
+      "id": "log-00155",
+      "entityType": "ticket",
+      "entityId": "ticket-0042",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2026-01-17T02:11:22.991Z",
+      "description": "Ticket \"Battery replacement\" was created"
+    },
+    {
+      "id": "log-00045",
+      "entityType": "device",
+      "entityId": "device-023",
+      "action": "device_status_changed",
+      "changes": {
+        "status": {
+          "old": "online",
+          "new": "maintenance"
+        }
+      },
+      "performedBy": "System",
+      "performedAt": "2026-01-17T01:27:13.569Z",
+      "description": "Device MonitorStation-M2-0023 status changed to maintenance"
+    },
+    {
+      "id": "log-00103",
+      "entityType": "ticket",
+      "entityId": "ticket-0020",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-16T15:27:06.226Z",
+      "description": "Ticket \"Device not responding\" was created"
+    },
+    {
+      "id": "log-00107",
+      "entityType": "ticket",
+      "entityId": "ticket-0021",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "in_progress"
+        }
+      },
+      "performedBy": "John Smith",
+      "performedAt": "2026-01-15T16:43:27.234Z",
+      "description": "Ticket status changed from New to In Progress"
+    },
+    {
+      "id": "log-00073",
+      "entityType": "ticket",
+      "entityId": "ticket-0006",
+      "action": "ticket_assigned",
+      "changes": {
+        "assigneeId": {
+          "old": null,
+          "new": "user-2"
+        },
+        "assigneeName": {
+          "old": null,
+          "new": "John Smith"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-14T22:59:01.703Z",
+      "description": "Ticket assigned to John Smith"
+    },
+    {
+      "id": "log-00118",
+      "entityType": "ticket",
+      "entityId": "ticket-0025",
+      "action": "ticket_assigned",
+      "changes": {
+        "assigneeId": {
+          "old": null,
+          "new": "user-1"
+        },
+        "assigneeName": {
+          "old": null,
+          "new": "System Admin"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-14T18:37:17.031Z",
+      "description": "Ticket assigned to System Admin"
+    },
+    {
+      "id": "log-00072",
+      "entityType": "ticket",
+      "entityId": "ticket-0006",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "waiting_parts"
+        }
+      },
+      "performedBy": "John Smith",
+      "performedAt": "2026-01-14T08:54:15.680Z",
+      "description": "Ticket status changed from New to waiting_parts"
+    },
+    {
+      "id": "log-00164",
+      "entityType": "ticket",
+      "entityId": "ticket-0046",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2026-01-14T08:01:14.123Z",
+      "description": "Ticket \"Device not responding\" was created"
+    },
+    {
+      "id": "log-00137",
+      "entityType": "ticket",
+      "entityId": "ticket-0032",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "Mary Johnson",
+      "performedAt": "2026-01-14T05:49:39.056Z",
+      "description": "Ticket \"Data anomaly detected\" was created"
+    },
+    {
+      "id": "log-00154",
+      "entityType": "ticket",
+      "entityId": "ticket-0041",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "Mary Johnson",
+      "performedAt": "2026-01-13T02:43:12.759Z",
+      "description": "Ticket \"Device not responding\" was created"
+    },
+    {
+      "id": "log-00053",
+      "entityType": "device",
+      "entityId": "device-028",
+      "action": "device_updated",
+      "changes": {
+        "firmwareVersion": {
+          "old": "1.0.0",
+          "new": "1.2.1"
+        }
+      },
+      "performedBy": "Mary Johnson",
+      "performedAt": "2026-01-13T02:16:41.116Z",
+      "description": "Device GatewayPro-X1-0028 firmware was updated"
+    },
+    {
+      "id": "log-00109",
+      "entityType": "ticket",
+      "entityId": "ticket-0022",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "Mary Johnson",
+      "performedAt": "2026-01-12T18:18:13.118Z",
+      "description": "Ticket \"Replace faulty component\" was created"
+    },
+    {
+      "id": "log-00071",
+      "entityType": "ticket",
+      "entityId": "ticket-0006",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "Operations Viewer",
+      "performedAt": "2026-01-12T17:13:26.173Z",
+      "description": "Ticket \"Network connectivity issues\" was created"
+    },
+    {
+      "id": "log-00066",
+      "entityType": "ticket",
+      "entityId": "ticket-0004",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "in_progress"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-12T09:48:21.502Z",
+      "description": "Ticket status changed from New to In Progress"
+    },
+    {
+      "id": "log-00065",
+      "entityType": "ticket",
+      "entityId": "ticket-0004",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-11T17:30:59.490Z",
+      "description": "Ticket \"Hardware malfunction\" was created"
+    },
+    {
+      "id": "log-00112",
+      "entityType": "ticket",
+      "entityId": "ticket-0023",
+      "action": "ticket_assigned",
+      "changes": {
+        "assigneeId": {
+          "old": null,
+          "new": "user-1"
+        },
+        "assigneeName": {
+          "old": null,
+          "new": "System Admin"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-11T11:34:58.695Z",
+      "description": "Ticket assigned to System Admin"
+    },
+    {
+      "id": "log-00133",
+      "entityType": "ticket",
+      "entityId": "ticket-0030",
+      "action": "ticket_assigned",
+      "changes": {
+        "assigneeId": {
+          "old": null,
+          "new": "user-3"
+        },
+        "assigneeName": {
+          "old": null,
+          "new": "Mary Johnson"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-11T01:23:33.948Z",
+      "description": "Ticket assigned to Mary Johnson"
+    },
+    {
+      "id": "log-00047",
+      "entityType": "device",
+      "entityId": "device-024",
+      "action": "device_status_changed",
+      "changes": {
+        "status": {
+          "old": "online",
+          "new": "offline"
+        }
+      },
+      "performedBy": "System",
+      "performedAt": "2026-01-10T23:47:52.770Z",
+      "description": "Device SmartMeter-A1-0024 status changed to offline"
+    },
+    {
+      "id": "log-00168",
+      "entityType": "ticket",
+      "entityId": "ticket-0048",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "waiting_parts"
+        }
+      },
+      "performedBy": "John Smith",
+      "performedAt": "2026-01-10T11:04:27.696Z",
+      "description": "Ticket status changed from New to waiting_parts"
+    },
+    {
+      "id": "log-00005",
+      "entityType": "device",
+      "entityId": "device-003",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "Mary Johnson",
+      "performedAt": "2026-01-10T09:16:01.790Z",
+      "description": "Device GatewayPro-X1-0003 was created"
+    },
+    {
+      "id": "log-00169",
+      "entityType": "ticket",
+      "entityId": "ticket-0048",
+      "action": "ticket_assigned",
+      "changes": {
+        "assigneeId": {
+          "old": null,
+          "new": "user-2"
+        },
+        "assigneeName": {
+          "old": null,
+          "new": "John Smith"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-10T06:22:27.384Z",
+      "description": "Ticket assigned to John Smith"
+    },
+    {
+      "id": "log-00061",
+      "entityType": "ticket",
+      "entityId": "ticket-0002",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "in_progress"
+        }
+      },
+      "performedBy": "John Smith",
+      "performedAt": "2026-01-10T06:03:04.028Z",
+      "description": "Ticket status changed from New to in_progress"
+    },
+    {
+      "id": "log-00051",
+      "entityType": "device",
+      "entityId": "device-027",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-09T20:29:53.172Z",
+      "description": "Device DataCollector-200-0027 was created"
+    },
+    {
+      "id": "log-00027",
+      "entityType": "device",
+      "entityId": "device-014",
+      "action": "device_updated",
+      "changes": {
+        "firmwareVersion": {
+          "old": "1.0.0",
+          "new": "1.2.1"
+        }
+      },
+      "performedBy": "Mary Johnson",
+      "performedAt": "2026-01-09T20:08:41.330Z",
+      "description": "Device MonitorStation-M2-0014 firmware was updated"
+    },
+    {
+      "id": "log-00060",
+      "entityType": "ticket",
+      "entityId": "ticket-0002",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2026-01-09T04:10:40.504Z",
+      "description": "Ticket \"Performance degradation\" was created"
+    },
+    {
+      "id": "log-00163",
+      "entityType": "ticket",
+      "entityId": "ticket-0045",
+      "action": "ticket_assigned",
+      "changes": {
+        "assigneeId": {
+          "old": null,
+          "new": "user-2"
+        },
+        "assigneeName": {
+          "old": null,
+          "new": "John Smith"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-09T04:04:54.768Z",
+      "description": "Ticket assigned to John Smith"
+    },
+    {
+      "id": "log-00162",
+      "entityType": "ticket",
+      "entityId": "ticket-0045",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "waiting_parts"
+        }
+      },
+      "performedBy": "John Smith",
+      "performedAt": "2026-01-09T03:10:53.753Z",
+      "description": "Ticket status changed from New to waiting_parts"
+    },
+    {
+      "id": "log-00090",
+      "entityType": "ticket",
+      "entityId": "ticket-0013",
+      "action": "ticket_assigned",
+      "changes": {
+        "assigneeId": {
+          "old": null,
+          "new": "user-3"
+        },
+        "assigneeName": {
+          "old": null,
+          "new": "Mary Johnson"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-08T12:40:48.638Z",
+      "description": "Ticket assigned to Mary Johnson"
+    },
+    {
+      "id": "log-00059",
+      "entityType": "ticket",
+      "entityId": "ticket-0001",
+      "action": "ticket_assigned",
+      "changes": {
+        "assigneeId": {
+          "old": null,
+          "new": "user-1"
+        },
+        "assigneeName": {
+          "old": null,
+          "new": "System Admin"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-07T11:09:21.539Z",
+      "description": "Ticket assigned to System Admin"
+    },
+    {
+      "id": "log-00058",
+      "entityType": "ticket",
+      "entityId": "ticket-0001",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "waiting_parts"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-07T10:09:57.017Z",
+      "description": "Ticket status changed from New to waiting_parts"
+    },
+    {
+      "id": "log-00111",
+      "entityType": "ticket",
+      "entityId": "ticket-0023",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "in_progress"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-06T16:40:40.846Z",
+      "description": "Ticket status changed from New to in_progress"
+    },
+    {
+      "id": "log-00117",
+      "entityType": "ticket",
+      "entityId": "ticket-0025",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "in_progress"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-06T10:04:24.223Z",
+      "description": "Ticket status changed from New to in_progress"
+    },
+    {
+      "id": "log-00129",
+      "entityType": "ticket",
+      "entityId": "ticket-0029",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "waiting_parts"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-06T09:12:47.071Z",
+      "description": "Ticket status changed from New to waiting_parts"
+    },
+    {
+      "id": "log-00044",
+      "entityType": "device",
+      "entityId": "device-023",
+      "action": "device_updated",
+      "changes": {
+        "firmwareVersion": {
+          "old": "1.0.0",
+          "new": "1.2.0"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-06T00:28:26.435Z",
+      "description": "Device MonitorStation-M2-0023 firmware was updated"
+    },
+    {
+      "id": "log-00089",
+      "entityType": "ticket",
+      "entityId": "ticket-0013",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "waiting_parts"
+        }
+      },
+      "performedBy": "Mary Johnson",
+      "performedAt": "2026-01-05T19:42:55.158Z",
+      "description": "Ticket status changed from New to waiting_parts"
+    },
+    {
+      "id": "log-00149",
+      "entityType": "ticket",
+      "entityId": "ticket-0037",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2026-01-05T15:37:43.685Z",
+      "description": "Ticket \"Device relocation\" was created"
+    },
+    {
+      "id": "log-00110",
+      "entityType": "ticket",
+      "entityId": "ticket-0023",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "Mary Johnson",
+      "performedAt": "2026-01-05T11:30:34.991Z",
+      "description": "Ticket \"Security patch required\" was created"
+    },
+    {
+      "id": "log-00144",
+      "entityType": "ticket",
+      "entityId": "ticket-0035",
+      "action": "ticket_assigned",
+      "changes": {
+        "assigneeId": {
+          "old": null,
+          "new": "user-2"
+        },
+        "assigneeName": {
+          "old": null,
+          "new": "John Smith"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-05T09:46:44.404Z",
+      "description": "Ticket assigned to John Smith"
+    },
+    {
+      "id": "log-00057",
+      "entityType": "ticket",
+      "entityId": "ticket-0001",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "Mary Johnson",
+      "performedAt": "2026-01-04T11:00:38.873Z",
+      "description": "Ticket \"Device relocation\" was created"
+    },
+    {
+      "id": "log-00042",
+      "entityType": "device",
+      "entityId": "device-022",
+      "action": "device_status_changed",
+      "changes": {
+        "status": {
+          "old": "online",
+          "new": "maintenance"
+        }
+      },
+      "performedBy": "System",
+      "performedAt": "2026-01-04T10:23:12.279Z",
+      "description": "Device MonitorStation-M2-0022 status changed to maintenance"
+    },
+    {
+      "id": "log-00083",
+      "entityType": "ticket",
+      "entityId": "ticket-0010",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "waiting_parts"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-03T23:20:28.516Z",
+      "description": "Ticket status changed from New to waiting_parts"
+    },
+    {
+      "id": "log-00160",
+      "entityType": "ticket",
+      "entityId": "ticket-0044",
+      "action": "ticket_assigned",
+      "changes": {
+        "assigneeId": {
+          "old": null,
+          "new": "user-1"
+        },
+        "assigneeName": {
+          "old": null,
+          "new": "System Admin"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-03T23:10:50.902Z",
+      "description": "Ticket assigned to System Admin"
+    },
+    {
+      "id": "log-00088",
+      "entityType": "ticket",
+      "entityId": "ticket-0013",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "Mary Johnson",
+      "performedAt": "2026-01-03T17:39:01.220Z",
+      "description": "Ticket \"Sensor calibration needed\" was created"
+    },
+    {
+      "id": "log-00052",
+      "entityType": "device",
+      "entityId": "device-028",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "System Admin",
+      "performedAt": "2026-01-03T06:52:20.079Z",
+      "description": "Device GatewayPro-X1-0028 was created"
+    },
+    {
+      "id": "log-00043",
+      "entityType": "device",
+      "entityId": "device-023",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2026-01-01T07:47:21.596Z",
+      "description": "Device MonitorStation-M2-0023 was created"
+    },
+    {
+      "id": "log-00102",
+      "entityType": "ticket",
+      "entityId": "ticket-0019",
+      "action": "ticket_assigned",
+      "changes": {
+        "assigneeId": {
+          "old": null,
+          "new": "user-3"
+        },
+        "assigneeName": {
+          "old": null,
+          "new": "Mary Johnson"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2025-12-31T21:04:16.711Z",
+      "description": "Ticket assigned to Mary Johnson"
+    },
+    {
+      "id": "log-00143",
+      "entityType": "ticket",
+      "entityId": "ticket-0035",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "waiting_parts"
+        }
+      },
+      "performedBy": "John Smith",
+      "performedAt": "2025-12-31T17:18:14.953Z",
+      "description": "Ticket status changed from New to waiting_parts"
+    },
+    {
+      "id": "log-00032",
+      "entityType": "device",
+      "entityId": "device-017",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "System Admin",
+      "performedAt": "2025-12-31T14:40:12.526Z",
+      "description": "Device SensorHub-3000-0017 was created"
+    },
+    {
+      "id": "log-00131",
+      "entityType": "ticket",
+      "entityId": "ticket-0030",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "Mary Johnson",
+      "performedAt": "2025-12-31T09:48:14.463Z",
+      "description": "Ticket \"Network connectivity issues\" was created"
+    },
+    {
+      "id": "log-00055",
+      "entityType": "device",
+      "entityId": "device-029",
+      "action": "device_status_changed",
+      "changes": {
+        "status": {
+          "old": "online",
+          "new": "maintenance"
+        }
+      },
+      "performedBy": "System",
+      "performedAt": "2025-12-31T09:16:07.935Z",
+      "description": "Device SensorHub-3000-0029 status changed to maintenance"
+    },
+    {
+      "id": "log-00116",
+      "entityType": "ticket",
+      "entityId": "ticket-0025",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2025-12-31T04:08:54.387Z",
+      "description": "Ticket \"Network connectivity issues\" was created"
+    },
+    {
+      "id": "log-00013",
+      "entityType": "device",
+      "entityId": "device-007",
+      "action": "device_status_changed",
+      "changes": {
+        "status": {
+          "old": "online",
+          "new": "maintenance"
+        }
+      },
+      "performedBy": "System",
+      "performedAt": "2025-12-29T15:11:03.710Z",
+      "description": "Device SensorHub-3000-0007 status changed to maintenance"
+    },
+    {
+      "id": "log-00119",
+      "entityType": "ticket",
+      "entityId": "ticket-0026",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "System Admin",
+      "performedAt": "2025-12-29T13:50:23.611Z",
+      "description": "Ticket \"Firmware update required\" was created"
+    },
+    {
+      "id": "log-00070",
+      "entityType": "ticket",
+      "entityId": "ticket-0005",
+      "action": "ticket_assigned",
+      "changes": {
+        "assigneeId": {
+          "old": null,
+          "new": "user-3"
+        },
+        "assigneeName": {
+          "old": null,
+          "new": "Mary Johnson"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2025-12-29T06:37:06.583Z",
+      "description": "Ticket assigned to Mary Johnson"
+    },
+    {
+      "id": "log-00082",
+      "entityType": "ticket",
+      "entityId": "ticket-0010",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "Operations Viewer",
+      "performedAt": "2025-12-28T22:32:11.608Z",
+      "description": "Ticket \"Hardware malfunction\" was created"
+    },
+    {
+      "id": "log-00170",
+      "entityType": "ticket",
+      "entityId": "ticket-0049",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2025-12-27T23:24:21.064Z",
+      "description": "Ticket \"Hardware malfunction\" was created"
+    },
+    {
+      "id": "log-00101",
+      "entityType": "ticket",
+      "entityId": "ticket-0019",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "waiting_parts"
+        }
+      },
+      "performedBy": "Mary Johnson",
+      "performedAt": "2025-12-25T20:04:19.727Z",
+      "description": "Ticket status changed from New to waiting_parts"
+    },
+    {
+      "id": "log-00025",
+      "entityType": "device",
+      "entityId": "device-013",
+      "action": "device_status_changed",
+      "changes": {
+        "status": {
+          "old": "online",
+          "new": "offline"
+        }
+      },
+      "performedBy": "System",
+      "performedAt": "2025-12-25T10:19:15.385Z",
+      "description": "Device EdgeNode-500-0013 status changed to offline"
+    },
+    {
+      "id": "log-00023",
+      "entityType": "device",
+      "entityId": "device-012",
+      "action": "device_updated",
+      "changes": {
+        "firmwareVersion": {
+          "old": "1.0.0",
+          "new": "1.0.0"
+        }
+      },
+      "performedBy": "John Smith",
+      "performedAt": "2025-12-25T02:24:36.994Z",
+      "description": "Device GatewayPro-X1-0012 firmware was updated"
+    },
+    {
+      "id": "log-00130",
+      "entityType": "ticket",
+      "entityId": "ticket-0029",
+      "action": "ticket_assigned",
+      "changes": {
+        "assigneeId": {
+          "old": null,
+          "new": "user-1"
+        },
+        "assigneeName": {
+          "old": null,
+          "new": "System Admin"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2025-12-24T20:00:16.544Z",
+      "description": "Ticket assigned to System Admin"
+    },
+    {
+      "id": "log-00159",
+      "entityType": "ticket",
+      "entityId": "ticket-0044",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "in_progress"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2025-12-24T10:49:45.951Z",
+      "description": "Ticket status changed from New to in_progress"
+    },
+    {
+      "id": "log-00046",
+      "entityType": "device",
+      "entityId": "device-024",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "System Admin",
+      "performedAt": "2025-12-24T09:08:11.113Z",
+      "description": "Device SmartMeter-A1-0024 was created"
+    },
+    {
+      "id": "log-00106",
+      "entityType": "ticket",
+      "entityId": "ticket-0021",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2025-12-24T04:06:09.555Z",
+      "description": "Ticket \"Replace faulty component\" was created"
+    },
+    {
+      "id": "log-00100",
+      "entityType": "ticket",
+      "entityId": "ticket-0019",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "Operations Viewer",
+      "performedAt": "2025-12-23T15:44:43.710Z",
+      "description": "Ticket \"Performance degradation\" was created"
+    },
+    {
+      "id": "log-00099",
+      "entityType": "ticket",
+      "entityId": "ticket-0018",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "Mary Johnson",
+      "performedAt": "2025-12-23T05:19:27.441Z",
+      "description": "Ticket \"System reset needed\" was created"
+    },
+    {
+      "id": "log-00022",
+      "entityType": "device",
+      "entityId": "device-012",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "Operations Viewer",
+      "performedAt": "2025-12-22T23:56:34.403Z",
+      "description": "Device GatewayPro-X1-0012 was created"
+    },
+    {
+      "id": "log-00166",
+      "entityType": "ticket",
+      "entityId": "ticket-0047",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "waiting_parts"
+        }
+      },
+      "performedBy": "Mary Johnson",
+      "performedAt": "2025-12-22T05:40:51.588Z",
+      "description": "Ticket status changed from New to waiting_parts"
+    },
+    {
+      "id": "log-00015",
+      "entityType": "device",
+      "entityId": "device-008",
+      "action": "device_status_changed",
+      "changes": {
+        "status": {
+          "old": "online",
+          "new": "maintenance"
+        }
+      },
+      "performedBy": "System",
+      "performedAt": "2025-12-22T01:48:12.906Z",
+      "description": "Device ControlUnit-C5-0008 status changed to maintenance"
+    },
+    {
+      "id": "log-00128",
+      "entityType": "ticket",
+      "entityId": "ticket-0029",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "Mary Johnson",
+      "performedAt": "2025-12-22T01:46:14.521Z",
+      "description": "Ticket \"Data anomaly detected\" was created"
+    },
+    {
+      "id": "log-00030",
+      "entityType": "device",
+      "entityId": "device-015",
+      "action": "device_status_changed",
+      "changes": {
+        "status": {
+          "old": "online",
+          "new": "offline"
+        }
+      },
+      "performedBy": "System",
+      "performedAt": "2025-12-22T00:38:21.894Z",
+      "description": "Device EdgeNode-500-0015 status changed to offline"
+    },
+    {
+      "id": "log-00161",
+      "entityType": "ticket",
+      "entityId": "ticket-0045",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "Mary Johnson",
+      "performedAt": "2025-12-21T21:18:55.805Z",
+      "description": "Ticket \"Data anomaly detected\" was created"
+    },
+    {
+      "id": "log-00158",
+      "entityType": "ticket",
+      "entityId": "ticket-0044",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "Mary Johnson",
+      "performedAt": "2025-12-21T11:36:32.282Z",
+      "description": "Ticket \"Firmware update required\" was created"
+    },
+    {
+      "id": "log-00092",
+      "entityType": "ticket",
+      "entityId": "ticket-0015",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "Operations Viewer",
+      "performedAt": "2025-12-21T09:52:50.785Z",
+      "description": "Ticket \"System reset needed\" was created"
+    },
+    {
+      "id": "log-00141",
+      "entityType": "ticket",
+      "entityId": "ticket-0034",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "System Admin",
+      "performedAt": "2025-12-18T23:57:28.947Z",
+      "description": "Ticket \"Diagnostic check\" was created"
+    },
+    {
+      "id": "log-00069",
+      "entityType": "ticket",
+      "entityId": "ticket-0005",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "in_progress"
+        }
+      },
+      "performedBy": "Mary Johnson",
+      "performedAt": "2025-12-18T05:11:36.484Z",
+      "description": "Ticket status changed from New to in_progress"
+    },
+    {
+      "id": "log-00078",
+      "entityType": "ticket",
+      "entityId": "ticket-0008",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "Mary Johnson",
+      "performedAt": "2025-12-17T04:38:29.167Z",
+      "description": "Ticket \"Battery replacement\" was created"
+    },
+    {
+      "id": "log-00157",
+      "entityType": "ticket",
+      "entityId": "ticket-0043",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "waiting_parts"
+        }
+      },
+      "performedBy": "Mary Johnson",
+      "performedAt": "2025-12-17T03:39:33.669Z",
+      "description": "Ticket status changed from New to waiting_parts"
+    },
+    {
+      "id": "log-00122",
+      "entityType": "ticket",
+      "entityId": "ticket-0027",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "in_progress",
+          "new": "done"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2025-12-17T00:29:48.600Z",
+      "description": "Ticket status changed from In Progress to Done"
+    },
+    {
+      "id": "log-00167",
+      "entityType": "ticket",
+      "entityId": "ticket-0048",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "System Admin",
+      "performedAt": "2025-12-15T19:33:28.927Z",
+      "description": "Ticket \"Sensor calibration needed\" was created"
+    },
+    {
+      "id": "log-00037",
+      "entityType": "device",
+      "entityId": "device-019",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2025-12-15T17:21:10.093Z",
+      "description": "Device DataCollector-200-0019 was created"
+    },
+    {
+      "id": "log-00018",
+      "entityType": "device",
+      "entityId": "device-010",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "Operations Viewer",
+      "performedAt": "2025-12-15T05:54:20.335Z",
+      "description": "Device SensorHub-3000-0010 was created"
+    },
+    {
+      "id": "log-00123",
+      "entityType": "ticket",
+      "entityId": "ticket-0027",
+      "action": "ticket_assigned",
+      "changes": {
+        "assigneeId": {
+          "old": null,
+          "new": "user-1"
+        },
+        "assigneeName": {
+          "old": null,
+          "new": "System Admin"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2025-12-15T04:17:48.557Z",
+      "description": "Ticket assigned to System Admin"
+    },
+    {
+      "id": "log-00068",
+      "entityType": "ticket",
+      "entityId": "ticket-0005",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "Mary Johnson",
+      "performedAt": "2025-12-13T23:51:26.760Z",
+      "description": "Ticket \"Sensor calibration needed\" was created"
+    },
+    {
+      "id": "log-00028",
+      "entityType": "device",
+      "entityId": "device-015",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2025-12-11T19:38:11.542Z",
+      "description": "Device EdgeNode-500-0015 was created"
+    },
+    {
+      "id": "log-00150",
+      "entityType": "ticket",
+      "entityId": "ticket-0038",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "System Admin",
+      "performedAt": "2025-12-11T10:19:49.509Z",
+      "description": "Ticket \"Device not responding\" was created"
+    },
+    {
+      "id": "log-00087",
+      "entityType": "ticket",
+      "entityId": "ticket-0012",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "in_progress",
+          "new": "done"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2025-12-11T06:08:06.387Z",
+      "description": "Ticket status changed from In Progress to Done"
+    },
+    {
+      "id": "log-00054",
+      "entityType": "device",
+      "entityId": "device-029",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "Mary Johnson",
+      "performedAt": "2025-12-10T10:17:11.549Z",
+      "description": "Device SensorHub-3000-0029 was created"
+    },
+    {
+      "id": "log-00156",
+      "entityType": "ticket",
+      "entityId": "ticket-0043",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2025-12-10T03:14:30.852Z",
+      "description": "Ticket \"Sensor calibration needed\" was created"
+    },
+    {
+      "id": "log-00038",
+      "entityType": "device",
+      "entityId": "device-020",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "Operations Viewer",
+      "performedAt": "2025-12-10T01:58:12.421Z",
+      "description": "Device DataCollector-200-0020 was created"
+    },
+    {
+      "id": "log-00151",
+      "entityType": "ticket",
+      "entityId": "ticket-0039",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2025-12-09T18:40:49.351Z",
+      "description": "Ticket \"Network connectivity issues\" was created"
+    },
+    {
+      "id": "log-00086",
+      "entityType": "ticket",
+      "entityId": "ticket-0012",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "in_progress"
+        }
+      },
+      "performedBy": "John Smith",
+      "performedAt": "2025-12-09T16:27:01.339Z",
+      "description": "Ticket status changed from New to In Progress"
+    },
+    {
+      "id": "log-00121",
+      "entityType": "ticket",
+      "entityId": "ticket-0027",
+      "action": "ticket_status_changed",
+      "changes": {
+        "status": {
+          "old": "new",
+          "new": "in_progress"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2025-12-09T14:32:52.426Z",
+      "description": "Ticket status changed from New to In Progress"
+    },
+    {
+      "id": "log-00120",
+      "entityType": "ticket",
+      "entityId": "ticket-0027",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "Mary Johnson",
+      "performedAt": "2025-12-09T11:38:23.912Z",
+      "description": "Ticket \"Firmware update required\" was created"
+    },
+    {
+      "id": "log-00041",
+      "entityType": "device",
+      "entityId": "device-022",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "Mary Johnson",
+      "performedAt": "2025-12-09T07:48:02.658Z",
+      "description": "Device MonitorStation-M2-0022 was created"
+    },
+    {
+      "id": "log-00085",
+      "entityType": "ticket",
+      "entityId": "ticket-0012",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "System Admin",
+      "performedAt": "2025-12-09T05:32:47.942Z",
+      "description": "Ticket \"System reset needed\" was created"
+    },
+    {
+      "id": "log-00165",
+      "entityType": "ticket",
+      "entityId": "ticket-0047",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2025-12-09T03:28:09.716Z",
+      "description": "Ticket \"Security patch required\" was created"
+    },
+    {
+      "id": "log-00142",
+      "entityType": "ticket",
+      "entityId": "ticket-0035",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2025-12-08T12:38:40.479Z",
+      "description": "Ticket \"Security patch required\" was created"
+    },
+    {
+      "id": "log-00009",
+      "entityType": "device",
+      "entityId": "device-005",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "Operations Viewer",
+      "performedAt": "2025-12-07T19:04:16.411Z",
+      "description": "Device GatewayPro-X1-0005 was created"
+    },
+    {
+      "id": "log-00084",
+      "entityType": "ticket",
+      "entityId": "ticket-0011",
+      "action": "ticket_created",
+      "changes": {},
+      "performedBy": "Operations Viewer",
+      "performedAt": "2025-12-05T22:24:05.864Z",
+      "description": "Ticket \"Network connectivity issues\" was created"
+    },
+    {
+      "id": "log-00024",
+      "entityType": "device",
+      "entityId": "device-013",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "Mary Johnson",
+      "performedAt": "2025-12-03T07:42:09.821Z",
+      "description": "Device EdgeNode-500-0013 was created"
+    },
+    {
+      "id": "log-00036",
+      "entityType": "device",
+      "entityId": "device-018",
+      "action": "device_updated",
+      "changes": {
+        "firmwareVersion": {
+          "old": "1.0.0",
+          "new": "1.1.0"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2025-12-03T00:50:11.822Z",
+      "description": "Device ControlUnit-C5-0018 firmware was updated"
+    },
+    {
+      "id": "log-00040",
+      "entityType": "device",
+      "entityId": "device-021",
+      "action": "device_updated",
+      "changes": {
+        "firmwareVersion": {
+          "old": "1.0.0",
+          "new": "1.0.0"
+        }
+      },
+      "performedBy": "System Admin",
+      "performedAt": "2025-12-02T04:08:34.713Z",
+      "description": "Device SmartMeter-A1-0021 firmware was updated"
+    },
+    {
+      "id": "log-00026",
+      "entityType": "device",
+      "entityId": "device-014",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2025-11-25T01:36:57.031Z",
+      "description": "Device MonitorStation-M2-0014 was created"
+    },
+    {
+      "id": "log-00039",
+      "entityType": "device",
+      "entityId": "device-021",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "Operations Viewer",
+      "performedAt": "2025-11-24T06:02:56.685Z",
+      "description": "Device SmartMeter-A1-0021 was created"
+    },
+    {
+      "id": "log-00012",
+      "entityType": "device",
+      "entityId": "device-007",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "System Admin",
+      "performedAt": "2025-11-21T01:56:08.947Z",
+      "description": "Device SensorHub-3000-0007 was created"
+    },
+    {
+      "id": "log-00035",
+      "entityType": "device",
+      "entityId": "device-018",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2025-11-20T18:41:58.396Z",
+      "description": "Device ControlUnit-C5-0018 was created"
+    },
+    {
+      "id": "log-00056",
+      "entityType": "device",
+      "entityId": "device-030",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "Mary Johnson",
+      "performedAt": "2025-11-16T16:58:52.417Z",
+      "description": "Device SensorHub-3000-0030 was created"
+    },
+    {
+      "id": "log-00020",
+      "entityType": "device",
+      "entityId": "device-011",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "Operations Viewer",
+      "performedAt": "2025-11-16T07:38:03.361Z",
+      "description": "Device DataCollector-200-0011 was created"
+    },
+    {
+      "id": "log-00002",
+      "entityType": "device",
+      "entityId": "device-001",
+      "action": "device_status_changed",
+      "changes": {
+        "status": {
+          "old": "online",
+          "new": "offline"
+        }
+      },
+      "performedBy": "System",
+      "performedAt": "2025-11-14T17:14:54.843Z",
+      "description": "Device EdgeNode-500-0001 status changed to offline"
+    },
+    {
+      "id": "log-00014",
+      "entityType": "device",
+      "entityId": "device-008",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2025-11-14T08:55:30.453Z",
+      "description": "Device ControlUnit-C5-0008 was created"
+    },
+    {
+      "id": "log-00048",
+      "entityType": "device",
+      "entityId": "device-025",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "System Admin",
+      "performedAt": "2025-11-12T23:49:35.140Z",
+      "description": "Device MonitorStation-M2-0025 was created"
+    },
+    {
+      "id": "log-00001",
+      "entityType": "device",
+      "entityId": "device-001",
+      "action": "device_created",
+      "changes": {},
+      "performedBy": "John Smith",
+      "performedAt": "2025-11-05T02:00:58.073Z",
+      "description": "Device EdgeNode-500-0001 was created"
+    }
+  ],
+  "users": [
+    {
+      "id": "user-1",
+      "username": "admin",
+      "displayName": "System Admin",
+      "role": "admin"
+    },
+    {
+      "id": "user-2",
+      "username": "jsmith",
+      "displayName": "John Smith",
+      "role": "technician"
+    },
+    {
+      "id": "user-3",
+      "username": "mjohnson",
+      "displayName": "Mary Johnson",
+      "role": "technician"
+    },
+    {
+      "id": "user-4",
+      "username": "viewer1",
+      "displayName": "Operations Viewer",
+      "role": "viewer"
+    }
+  ]
+}
