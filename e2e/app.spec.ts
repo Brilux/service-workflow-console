@@ -13,7 +13,8 @@ test.describe('Service Workflow Console', () => {
       await page.getByRole('button', { name: /Administrator/i }).click();
 
       await expect(page).toHaveURL(/.*devices/);
-      await expect(page.getByText('Admin')).toBeVisible();
+      // Use exact match on chip to avoid matching user button text
+      await expect(page.locator('mat-chip').getByText('Admin', { exact: true })).toBeVisible();
     });
 
     test('should login as Technician', async ({ page }) => {
@@ -31,7 +32,8 @@ test.describe('Service Workflow Console', () => {
       await page.getByRole('button', { name: /Viewer/i }).click();
 
       await expect(page).toHaveURL(/.*devices/);
-      await expect(page.getByText('Viewer')).toBeVisible();
+      // Use exact match on chip to avoid matching user button text
+      await expect(page.locator('mat-chip').getByText('Viewer', { exact: true })).toBeVisible();
     });
 
     test('should logout and redirect to login', async ({ page }) => {
@@ -39,7 +41,8 @@ test.describe('Service Workflow Console', () => {
       await page.getByRole('button', { name: /Administrator/i }).click();
       await expect(page).toHaveURL(/.*devices/);
 
-      await page.getByRole('button', { name: /account_circle/i }).click();
+      // Click user menu button (contains user display name)
+      await page.locator('.user-button').click();
       await page.getByRole('menuitem', { name: /Logout/i }).click();
 
       await expect(page).toHaveURL(/.*login/);
@@ -96,12 +99,12 @@ test.describe('Service Workflow Console', () => {
 
       // Verify dialog is open
       await expect(page.getByRole('dialog')).toBeVisible();
-      await expect(page.getByText('Edit Device')).toBeVisible();
+      await expect(page.getByRole('heading', { name: 'Edit Device' })).toBeVisible();
     });
 
     test('Viewer should not see edit button', async ({ page }) => {
       // Logout first
-      await page.getByRole('button', { name: /account_circle/i }).click();
+      await page.locator('.user-button').click();
       await page.getByRole('menuitem', { name: /Logout/i }).click();
 
       // Login as Viewer
@@ -148,23 +151,25 @@ test.describe('Service Workflow Console', () => {
 
     test('should navigate through create ticket stepper', async ({ page }) => {
       await page.getByRole('button', { name: /Create Ticket/i }).click();
+      await expect(page.getByRole('dialog')).toBeVisible();
 
       // Step 1: Select Device
-      await page.getByLabel('Device').click();
+      await page.getByRole('combobox', { name: 'Device' }).click();
       await page.getByRole('option').first().click();
-      await page.getByRole('button', { name: 'Next' }).click();
+      await page.getByLabel(/Select Device/i).getByRole('button', { name: 'Next' }).click();
 
       // Step 2: Ticket Type
-      await expect(page.getByLabel('Ticket Type')).toBeVisible();
-      await page.getByRole('button', { name: 'Next' }).click();
+      await expect(page.getByRole('combobox', { name: 'Ticket Type' })).toBeVisible();
+      await page.getByLabel(/Ticket Type/i).getByRole('button', { name: 'Next' }).click();
 
       // Step 3: Details
+      await expect(page.getByLabel('Title')).toBeVisible();
       await page.getByLabel('Title').fill('Test Ticket Title');
       await page.getByLabel('Description').fill('Test ticket description for e2e testing');
-      await page.getByRole('button', { name: 'Next' }).click();
+      await page.getByLabel(/Details/i).getByRole('button', { name: 'Next' }).click();
 
       // Step 4: Review
-      await expect(page.getByText('Review')).toBeVisible();
+      await expect(page.locator('.review-section')).toBeVisible();
       await expect(page.getByText('Test Ticket Title')).toBeVisible();
     });
 
@@ -197,7 +202,7 @@ test.describe('Service Workflow Console', () => {
 
     test('Viewer should not see create ticket button', async ({ page }) => {
       // Logout
-      await page.getByRole('button', { name: /account_circle/i }).click();
+      await page.locator('.user-button').click();
       await page.getByRole('menuitem', { name: /Logout/i }).click();
 
       // Login as Viewer
@@ -232,8 +237,8 @@ test.describe('Service Workflow Console', () => {
       const sidenav = page.locator('mat-sidenav');
       await expect(sidenav).toBeVisible();
 
-      // Click menu button to toggle
-      await page.getByRole('button', { name: 'menu' }).click();
+      // Click menu button to toggle (icon button in toolbar)
+      await page.locator('mat-toolbar button mat-icon:has-text("menu")').click();
 
       // Sidenav should still exist but might be closed
       await expect(sidenav).toBeAttached();
