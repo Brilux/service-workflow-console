@@ -1,6 +1,6 @@
 # Service Workflow Console
 
-[![CI](https://github.com/YOUR_USERNAME/service-workflow-console/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/service-workflow-console/actions/workflows/ci.yml)
+[![CI](https://github.com/Brilux/service-workflow-console/actions/workflows/ci.yml/badge.svg)](https://github.com/Brilux/service-workflow-console/actions/workflows/ci.yml)
 
 A modern web console for managing connected devices and service workflows (maintenance/RMA). Built with Angular 18, Angular Material, and NgRx Signal Store.
 
